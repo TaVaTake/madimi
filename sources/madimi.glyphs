@@ -63,6 +63,22 @@ value = (
 name = fsType;
 value = (
 );
+},
+{
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 7;
+},
+{
+name = blueFuzz;
+value = 1;
+},
+{
+name = TTFBlueFuzz;
+value = 1;
 }
 );
 date = "2023-10-25 20:34:19 +0000";
@@ -152,6 +168,10 @@ pos = -250;
 }
 );
 name = Bold;
+stemValues = (
+120,
+144
+);
 userData = {
 GSCornerRadius = 36;
 };
@@ -5508,6 +5528,15 @@ value = "Madimi ";
 settings = {
 disablesNiceNames = 1;
 };
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
