@@ -802,8 +802,6 @@ fontbakery version: 0.10.1
 
 	- Glyph name: grave	Expected: 1
 
-	- Glyph name: k	Expected: 1 or 2
-
 	- Glyph name: w	Expected: 1
 
 	- Glyph name: x	Expected: 1
@@ -890,8 +888,6 @@ fontbakery version: 0.10.1
 
 	- Glyph name: hungarumlaut	Expected: 2
 
-	- Glyph name: k	Expected: 1 or 2
-
 	- Glyph name: ogonek	Expected: 1
 
 	- Glyph name: ring	Expected: 2
@@ -955,16 +951,16 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, math, old-permic, tifinagh, canadian-aboriginal, tai-le, syriac
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, canadian-aboriginal, tai-le, math, old-permic, syriac, tifinagh, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -1007,11 +1003,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* T (U+0054): X=351.5,Y=1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=139.0,Y=498.5 (should be at x-height 500?)
-
-	* c (U+0063): X=346.5,Y=-0.5 (should be at baseline 0?)
-
 	* g (U+0067): X=340.0,Y=-1.0 (should be at baseline 0?)
+
+	* k (U+006B): X=438.0,Y=501.5 (should be at x-height 500?)
+
+	* k (U+006B): X=468.0,Y=-1.5 (should be at baseline 0?)
 
 	* t (U+0074): X=80.0,Y=499.0 (should be at x-height 500?)
 
@@ -1033,15 +1029,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* G (U+0047) contains a short segment B<<451.0,262.5>-<455.0,271.0>-<468.0,275.0>>
+
 	* W (U+0057) contains a short segment B<<279.0,111.0>-<292.0,109.0>-<295.0,109.0>>
 
 	* W (U+0057) contains a short segment B<<295.0,109.0>-<299.0,109.0>-<313.0,110.5>>
-
-	* c (U+0063) contains a short segment B<<499.0,347.0>-<500.0,342.0>-<500.5,339.0>>
-
-	* c (U+0063) contains a short segment B<<500.5,339.0>-<501.0,336.0>-<501.0,333.0>>
-
-	* d (U+0064) contains a short segment B<<364.5,432.5>-<369.0,422.0>-<369.0,422.0>>
 
 	* fi (U+FB01) contains a short segment L<<115.0,500.0>--<115.0,520.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1049,7 +1041,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* v (U+0076): B<<247.0,163.5>-<249.0,157.0>-<251.0,140.0>>/B<<251.0,140.0>-<253.0,157.0>-<256.0,164.0>> = 13.41967361551383 [code: found-jaggy-segments]
+	* b (U+0062): B<<191.5,509.0>-<188.0,476.0>-<180.0,450.0>>/B<<180.0,450.0>-<200.0,483.0>-<231.0,497.5>> = 14.11567379529398
+
+	* d (U+0064): B<<333.5,497.5>-<365.0,483.0>-<384.0,450.0>>/B<<384.0,450.0>-<376.0,476.0>-<372.5,509.0>> = 12.828782871455394
+
+	* p (U+0070): B<<231.0,2.5>-<200.0,17.0>-<180.0,50.0>>/B<<180.0,50.0>-<188.0,25.0>-<191.5,-8.5>> = 13.473731139289438
+
+	* q (U+0071): B<<372.5,-8.5>-<376.0,25.0>-<384.0,50.0>>/B<<384.0,50.0>-<365.0,17.0>-<333.5,2.5>> = 12.186840215450822
+
+	* v (U+0076): B<<249.5,169.5>-<252.0,163.0>-<254.0,146.0>>/B<<254.0,146.0>-<256.0,163.0>-<258.5,170.0>> = 13.41967361551383 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1061,7 +1061,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary

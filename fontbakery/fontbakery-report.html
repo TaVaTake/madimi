@@ -913,16 +913,16 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, math, old-permic, tifinagh, canadian-aboriginal, tai-le, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, canadian-aboriginal, tai-le, math, old-permic, syriac, tifinagh, malayalam</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
@@ -1037,8 +1037,6 @@ definitions.</p>
 
 - Glyph name: grave	Expected: 1
 
-- Glyph name: k	Expected: 1 or 2
-
 - Glyph name: w	Expected: 1
 
 - Glyph name: x	Expected: 1
@@ -1125,8 +1123,6 @@ definitions.</p>
 
 - Glyph name: hungarumlaut	Expected: 2
 
-- Glyph name: k	Expected: 1 or 2
-
 - Glyph name: ogonek	Expected: 1
 
 - Glyph name: ring	Expected: 2
@@ -1198,11 +1194,11 @@ definitions.</p>
 
 * T (U+0054): X=351.5,Y=1.0 (should be at baseline 0?)
 
-* a (U+0061): X=139.0,Y=498.5 (should be at x-height 500?)
-
-* c (U+0063): X=346.5,Y=-0.5 (should be at baseline 0?)
-
 * g (U+0067): X=340.0,Y=-1.0 (should be at baseline 0?)
+
+* k (U+006B): X=438.0,Y=501.5 (should be at x-height 500?)
+
+* k (U+006B): X=468.0,Y=-1.5 (should be at baseline 0?)
 
 * t (U+0074): X=80.0,Y=499.0 (should be at x-height 500?)
 
@@ -1225,15 +1221,11 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_short_segments</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* W (U+0057) contains a short segment B&lt;&lt;279.0,111.0&gt;-&lt;292.0,109.0&gt;-&lt;295.0,109.0&gt;&gt;
+<pre><code>* G (U+0047) contains a short segment B&lt;&lt;451.0,262.5&gt;-&lt;455.0,271.0&gt;-&lt;468.0,275.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;279.0,111.0&gt;-&lt;292.0,109.0&gt;-&lt;295.0,109.0&gt;&gt;
 
 * W (U+0057) contains a short segment B&lt;&lt;295.0,109.0&gt;-&lt;299.0,109.0&gt;-&lt;313.0,110.5&gt;&gt;
-
-* c (U+0063) contains a short segment B&lt;&lt;499.0,347.0&gt;-&lt;500.0,342.0&gt;-&lt;500.5,339.0&gt;&gt;
-
-* c (U+0063) contains a short segment B&lt;&lt;500.5,339.0&gt;-&lt;501.0,336.0&gt;-&lt;501.0,333.0&gt;&gt;
-
-* d (U+0064) contains a short segment B&lt;&lt;364.5,432.5&gt;-&lt;369.0,422.0&gt;-&lt;369.0,422.0&gt;&gt;
 
 * fi (U+FB01) contains a short segment L&lt;&lt;115.0,500.0&gt;--&lt;115.0,520.0&gt;&gt; [code: found-short-segments]
 </code></pre>
@@ -1242,7 +1234,15 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_jaggy_segments</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* v (U+0076): B&lt;&lt;247.0,163.5&gt;-&lt;249.0,157.0&gt;-&lt;251.0,140.0&gt;&gt;/B&lt;&lt;251.0,140.0&gt;-&lt;253.0,157.0&gt;-&lt;256.0,164.0&gt;&gt; = 13.41967361551383 [code: found-jaggy-segments]
+<pre><code>* b (U+0062): B&lt;&lt;191.5,509.0&gt;-&lt;188.0,476.0&gt;-&lt;180.0,450.0&gt;&gt;/B&lt;&lt;180.0,450.0&gt;-&lt;200.0,483.0&gt;-&lt;231.0,497.5&gt;&gt; = 14.11567379529398
+
+* d (U+0064): B&lt;&lt;333.5,497.5&gt;-&lt;365.0,483.0&gt;-&lt;384.0,450.0&gt;&gt;/B&lt;&lt;384.0,450.0&gt;-&lt;376.0,476.0&gt;-&lt;372.5,509.0&gt;&gt; = 12.828782871455394
+
+* p (U+0070): B&lt;&lt;231.0,2.5&gt;-&lt;200.0,17.0&gt;-&lt;180.0,50.0&gt;&gt;/B&lt;&lt;180.0,50.0&gt;-&lt;188.0,25.0&gt;-&lt;191.5,-8.5&gt;&gt; = 13.473731139289438
+
+* q (U+0071): B&lt;&lt;372.5,-8.5&gt;-&lt;376.0,25.0&gt;-&lt;384.0,50.0&gt;&gt;/B&lt;&lt;384.0,50.0&gt;-&lt;365.0,17.0&gt;-&lt;333.5,2.5&gt;&gt; = 12.186840215450822
+
+* v (U+0076): B&lt;&lt;249.5,169.5&gt;-&lt;252.0,163.0&gt;-&lt;254.0,146.0&gt;&gt;/B&lt;&lt;254.0,146.0&gt;-&lt;256.0,163.0&gt;-&lt;258.5,170.0&gt;&gt; = 13.41967361551383 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h2>Section: Shaping Checks</h2>
@@ -1257,7 +1257,7 @@ definitions.</p>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers). [code: soft-dotted]</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
