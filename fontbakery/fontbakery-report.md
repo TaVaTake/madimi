@@ -640,7 +640,7 @@ fontbakery version: 0.10.1
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -670,23 +670,7 @@ fontbakery version: 0.10.1
 
 	- Glyph name: slash	Expected: 1
 
-	- Glyph name: zero	Expected: 2 or 3
-
-	- Glyph name: one	Expected: 1
-
-	- Glyph name: two	Expected: 1
-
-	- Glyph name: three	Expected: 1
-
-	- Glyph name: four	Expected: 1 or 2
-
-	- Glyph name: five	Expected: 1
-
 	- Glyph name: six	Expected: 1 or 2
-
-	- Glyph name: seven	Expected: 1
-
-	- Glyph name: eight	Expected: 3
 
 	- Glyph name: nine	Expected: 1 or 2
 
@@ -814,17 +798,11 @@ fontbakery version: 0.10.1
 
 	- Glyph name: dotaccent	Expected: 1
 
-	- Glyph name: eight	Expected: 3
-
 	- Glyph name: emdash	Expected: 1
 
 	- Glyph name: endash	Expected: 1
 
 	- Glyph name: exclamdown	Expected: 2
-
-	- Glyph name: five	Expected: 1
-
-	- Glyph name: four	Expected: 1 or 2
 
 	- Glyph name: grave	Expected: 1
 
@@ -845,8 +823,6 @@ fontbakery version: 0.10.1
 	- Glyph name: numbersign	Expected: 2
 
 	- Glyph name: ogonek	Expected: 1
-
-	- Glyph name: one	Expected: 1
 
 	- Glyph name: parenleft	Expected: 1
 
@@ -876,15 +852,9 @@ fontbakery version: 0.10.1
 
 	- Glyph name: semicolon	Expected: 2
 
-	- Glyph name: seven	Expected: 1
-
 	- Glyph name: six	Expected: 1 or 2
 
 	- Glyph name: slash	Expected: 1
-
-	- Glyph name: three	Expected: 1
-
-	- Glyph name: two	Expected: 1
 
 	- Glyph name: underscore	Expected: 1
 
@@ -907,18 +877,20 @@ fontbakery version: 0.10.1
 	- Glyph name: uni0327	Expected: 1
 
 	- Glyph name: uni0328	Expected: 1
-
-	- Glyph name: zero	Expected: 2 or 3
  [code: no-contour]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: five	Contours detected: 2	Expected: 1
 
 	- Glyph name: w	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0308	Contours detected: 1	Expected: 2
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: five	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0308	Contours detected: 1	Expected: 2
 
@@ -953,17 +925,17 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, old-permic, coptic, math, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, syriac, tifinagh, malayalam, math, canadian-aboriginal, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1009,7 +981,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* K (U+004B): X=550.0,Y=-1.0 (should be at baseline 0?)
+	* three (U+0033): X=102.5,Y=700.5 (should be at cap-height 700?)
 
 	* M (U+004D): X=454.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1017,11 +989,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* T (U+0054): X=315.5,Y=1.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=131.5,Y=702.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=423.5,Y=701.5 (should be at cap-height 700?)
-
-	* Y (U+0059): X=509.5,Y=698.0 (should be at cap-height 700?)
+	* Y (U+0059): X=487.0,Y=702.0 (should be at cap-height 700?)
 
 	* a (U+0061): X=101.0,Y=498.5 (should be at x-height 500?)
 
@@ -1041,7 +1009,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* t (U+0074): X=301.0,Y=499.0 (should be at x-height 500?)
 
-	* x (U+0078): X=405.0,Y=499.5 (should be at x-height 500?)
+	* x (U+0078): X=105.0,Y=499.0 (should be at x-height 500?)
+
+	* x (U+0078): X=513.0,Y=1.0 (should be at baseline 0?)
 
 	* Eacute (U+00C9): X=295.0,Y=748.0 (should be at ascender 750?)
 
@@ -1051,7 +1021,41 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* Y (U+0059) contains a short segment B<<530.0,649.0>-<530.0,643.0>-<529.0,634.0>>
+	* four (U+0034) contains a short segment L<<128.0,180.0>--<125.0,180.0>>
+
+	* four (U+0034) contains a short segment L<<125.0,180.0>--<122.0,180.0>>
+
+	* R (U+0052) contains a short segment B<<354.0,291.0>-<348.0,291.0>-<341.0,291.0>>
+
+	* W (U+0057) contains a short segment B<<87.0,610.0>-<85.0,621.0>-<83.5,630.0>>
+
+	* W (U+0057) contains a short segment B<<83.5,630.0>-<82.0,639.0>-<82.0,648.0>>
+
+	* W (U+0057) contains a short segment B<<333.0,193.0>-<335.0,183.0>-<337.5,174.5>>
+
+	* W (U+0057) contains a short segment B<<346.5,175.0>-<349.0,184.0>-<351.0,194.0>>
+
+	* W (U+0057) contains a short segment B<<458.5,643.0>-<463.0,658.0>-<468.0,669.0>>
+
+	* W (U+0057) contains a short segment B<<503.0,704.0>-<511.0,706.0>-<522.0,706.0>>
+
+	* W (U+0057) contains a short segment L<<523.0,706.0>--<523.0,706.0>>
+
+	* W (U+0057) contains a short segment B<<523.0,706.0>-<536.0,706.0>-<546.0,703.0>>
+
+	* W (U+0057) contains a short segment B<<546.0,703.0>-<557.0,699.0>-<565.0,691.5>>
+
+	* W (U+0057) contains a short segment B<<565.0,691.5>-<573.0,684.0>-<577.0,670.0>>
+
+	* W (U+0057) contains a short segment B<<577.0,670.0>-<582.0,659.0>-<586.5,644.0>>
+
+	* W (U+0057) contains a short segment B<<694.0,193.0>-<696.0,183.0>-<698.5,174.5>>
+
+	* W (U+0057) contains a short segment B<<707.5,175.0>-<710.0,184.0>-<712.0,194.0>>
+
+	* W (U+0057) contains a short segment B<<962.0,646.0>-<962.0,638.0>-<960.5,629.0>>
+
+	* W (U+0057) contains a short segment B<<960.5,629.0>-<959.0,620.0>-<957.0,609.0>>
 
 	* Z (U+005A) contains a short segment B<<365.5,577.0>-<373.0,578.0>-<363.0,578.0>>
 
@@ -1059,7 +1063,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* f (U+0066) contains a short segment L<<111.0,379.0>--<101.0,379.0>>
 
-	* x (U+0078) contains a short segment L<<380.0,270.0>--<377.0,270.0>>
+	* x (U+0078) contains a short segment L<<380.0,270.0>--<376.0,270.0>>
 
 	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
 
@@ -1073,13 +1077,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* W (U+0057): L<<522.0,706.0>--<523.0,706.0>> -> L<<523.0,706.0>--<523.0,706.0>>
+
 	* Z (U+005A): L<<107.0,81.0>--<224.0,327.0>> -> L<<224.0,327.0>--<317.0,529.0>>
 
-	* Z (U+005A): L<<519.0,612.0>--<402.0,366.0>> -> L<<402.0,366.0>--<309.0,164.0>> [code: found-colinear-vectors]
+	* Z (U+005A): L<<519.0,612.0>--<402.0,366.0>> -> L<<402.0,366.0>--<309.0,164.0>>
+
+	* four (U+0034): L<<128.0,180.0>--<125.0,180.0>> -> L<<125.0,180.0>--<122.0,180.0>>
+
+	* four (U+0034): L<<324.0,180.0>--<128.0,180.0>> -> L<<128.0,180.0>--<125.0,180.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* W (U+0057): B<<337.5,174.5>-<340.0,166.0>-<342.0,143.0>>/B<<342.0,143.0>-<344.0,166.0>-<346.5,175.0>> = 9.939481456220602
+
+	* W (U+0057): B<<698.5,174.5>-<701.0,166.0>-<703.0,143.0>>/B<<703.0,143.0>-<705.0,166.0>-<707.5,175.0>> = 9.939481456220602
 
 	* b (U+0062): B<<197.5,509.0>-<194.0,476.0>-<186.0,450.0>>/B<<186.0,450.0>-<206.0,483.0>-<237.0,497.5>> = 14.11567379529398
 
@@ -1088,6 +1102,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* p (U+0070): B<<237.0,2.5>-<206.0,17.0>-<186.0,50.0>>/B<<186.0,50.0>-<194.0,25.0>-<197.5,-8.5>> = 13.473731139289438
 
 	* q (U+0071): B<<372.5,-8.5>-<376.0,25.0>-<384.0,50.0>>/B<<384.0,50.0>-<365.0,17.0>-<333.5,2.5>> = 12.186840215450822
+
+	* two (U+0032): B<<217.5,148.0>-<195.0,134.0>-<177.0,109.0>>/B<<177.0,109.0>-<189.0,123.0>-<207.0,131.0>> = 4.847407390567654
 
 	* v (U+0076): B<<249.5,169.5>-<252.0,163.0>-<254.0,146.0>>/B<<254.0,146.0>-<256.0,163.0>-<258.5,170.0>> = 13.41967361551383
 
@@ -1107,7 +1123,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Dutch (Latn, 31,709,104 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
