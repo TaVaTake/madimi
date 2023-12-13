@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[29] Madimi-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+<details><summary><b>[27] Madimi-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
@@ -640,15 +640,11 @@ fontbakery version: 0.10.1
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.7 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
 * 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -656,37 +652,15 @@ fontbakery version: 0.10.1
 
 	- Glyph name: quotedbl	Expected: 2
 
-	- Glyph name: numbersign	Expected: 2
-
 	- Glyph name: quotesingle	Expected: 1
 
 	- Glyph name: parenleft	Expected: 1
 
 	- Glyph name: parenright	Expected: 1
 
-	- Glyph name: asterisk	Expected: 1 or 4
-
-	- Glyph name: hyphen	Expected: 1
-
-	- Glyph name: slash	Expected: 1
-
-	- Glyph name: six	Expected: 1 or 2
-
-	- Glyph name: nine	Expected: 1 or 2
-
-	- Glyph name: colon	Expected: 2
-
-	- Glyph name: semicolon	Expected: 2
-
-	- Glyph name: question	Expected: 2
-
 	- Glyph name: bracketleft	Expected: 1
 
-	- Glyph name: backslash	Expected: 1
-
 	- Glyph name: bracketright	Expected: 1
-
-	- Glyph name: underscore	Expected: 1
 
 	- Glyph name: grave	Expected: 1
 
@@ -694,15 +668,11 @@ fontbakery version: 0.10.1
 
 	- Glyph name: braceright	Expected: 1
 
-	- Glyph name: exclamdown	Expected: 2
-
 	- Glyph name: dieresis	Expected: 2
 
 	- Glyph name: guillemotleft	Expected: 2
 
 	- Glyph name: acute	Expected: 1
-
-	- Glyph name: periodcentered	Expected: 1
 
 	- Glyph name: cedilla	Expected: 1
 
@@ -748,10 +718,6 @@ fontbakery version: 0.10.1
 
 	- Glyph name: uni0328	Expected: 1
 
-	- Glyph name: endash	Expected: 1
-
-	- Glyph name: emdash	Expected: 1
-
 	- Glyph name: quoteleft	Expected: 1
 
 	- Glyph name: quoteright	Expected: 1
@@ -762,17 +728,11 @@ fontbakery version: 0.10.1
 
 	- Glyph name: quotedblright	Expected: 2
 
-	- Glyph name: bullet	Expected: 1
-
 	- Glyph name: guilsinglleft	Expected: 1
 
 	- Glyph name: guilsinglright	Expected: 1
 
 	- Glyph name: acute	Expected: 1
-
-	- Glyph name: asterisk	Expected: 1 or 4
-
-	- Glyph name: backslash	Expected: 1
 
 	- Glyph name: braceleft	Expected: 1
 
@@ -784,25 +744,15 @@ fontbakery version: 0.10.1
 
 	- Glyph name: breve	Expected: 1
 
-	- Glyph name: bullet	Expected: 1
-
 	- Glyph name: caron	Expected: 1
 
 	- Glyph name: cedilla	Expected: 1
 
 	- Glyph name: circumflex	Expected: 1
 
-	- Glyph name: colon	Expected: 2
-
 	- Glyph name: dieresis	Expected: 2
 
 	- Glyph name: dotaccent	Expected: 1
-
-	- Glyph name: emdash	Expected: 1
-
-	- Glyph name: endash	Expected: 1
-
-	- Glyph name: exclamdown	Expected: 2
 
 	- Glyph name: grave	Expected: 1
 
@@ -816,21 +766,11 @@ fontbakery version: 0.10.1
 
 	- Glyph name: hungarumlaut	Expected: 2
 
-	- Glyph name: hyphen	Expected: 1
-
-	- Glyph name: nine	Expected: 1 or 2
-
-	- Glyph name: numbersign	Expected: 2
-
 	- Glyph name: ogonek	Expected: 1
 
 	- Glyph name: parenleft	Expected: 1
 
 	- Glyph name: parenright	Expected: 1
-
-	- Glyph name: periodcentered	Expected: 1
-
-	- Glyph name: question	Expected: 2
 
 	- Glyph name: questiondown	Expected: 2
 
@@ -849,14 +789,6 @@ fontbakery version: 0.10.1
 	- Glyph name: quotesingle	Expected: 1
 
 	- Glyph name: ring	Expected: 2
-
-	- Glyph name: semicolon	Expected: 2
-
-	- Glyph name: six	Expected: 1 or 2
-
-	- Glyph name: slash	Expected: 1
-
-	- Glyph name: underscore	Expected: 1
 
 	- Glyph name: uni0302	Expected: 1
 
@@ -882,19 +814,9 @@ fontbakery version: 0.10.1
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: five	Contours detected: 2	Expected: 1
-
-	- Glyph name: w	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0308	Contours detected: 1	Expected: 2
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: five	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0308	Contours detected: 1	Expected: 2
-
-	- Glyph name: w	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
@@ -909,8 +831,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
+	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -925,34 +846,23 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, syriac, tifinagh, malayalam, math, canadian-aboriginal, tai-le
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, canadian-aboriginal, math, coptic, tai-le, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -962,11 +872,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- ellipisis
+
 	- uni030C.alt
-
-	- x.ss09
-
-	- x.ss10
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -981,25 +889,25 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* three (U+0033): X=102.5,Y=700.5 (should be at cap-height 700?)
+	* five (U+0035): X=100.5,Y=1.0 (should be at baseline 0?)
 
-	* M (U+004D): X=454.0,Y=-1.0 (should be at baseline 0?)
+	* K (U+004B): X=453.5,Y=698.0 (should be at cap-height 700?)
 
-	* T (U+0054): X=217.5,Y=0.5 (should be at baseline 0?)
+	* K (U+004B): X=554.5,Y=698.0 (should be at cap-height 700?)
 
-	* T (U+0054): X=315.5,Y=1.0 (should be at baseline 0?)
+	* K (U+004B): X=556.0,Y=1.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=487.0,Y=702.0 (should be at cap-height 700?)
+	* K (U+004B): X=456.5,Y=1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=101.0,Y=498.5 (should be at x-height 500?)
+	* M (U+004D): X=448.0,Y=-1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=369.5,Y=502.0 (should be at x-height 500?)
+	* T (U+0054): X=227.5,Y=0.5 (should be at baseline 0?)
 
-	* c (U+0063): X=369.5,Y=-2.0 (should be at baseline 0?)
+	* T (U+0054): X=325.5,Y=1.0 (should be at baseline 0?)
+
+	* X (U+0058): X=171.5,Y=-0.5 (should be at baseline 0?)
 
 	* g (U+0067): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* k (U+006B): X=437.0,Y=502.0 (should be at x-height 500?)
 
 	* t (U+0074): X=80.0,Y=499.0 (should be at x-height 500?)
 
@@ -1009,109 +917,125 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* t (U+0074): X=301.0,Y=499.0 (should be at x-height 500?)
 
-	* x (U+0078): X=105.0,Y=499.0 (should be at x-height 500?)
+	* v (U+0076): X=137.5,Y=498.5 (should be at x-height 500?)
 
-	* x (U+0078): X=513.0,Y=1.0 (should be at baseline 0?)
+	* v (U+0076): X=466.5,Y=498.0 (should be at x-height 500?)
 
-	* Eacute (U+00C9): X=295.0,Y=748.0 (should be at ascender 750?)
+	* v (U+0076): X=315.0,Y=-2.0 (should be at baseline 0?)
 
-	* fi (U+FB01): X=493.5,Y=750.5 (should be at ascender 750?) [code: found-misalignments]
+	* w (U+0077): X=137.5,Y=498.5 (should be at x-height 500?)
+
+	* x (U+0078): X=374.0,Y=-1.0 (should be at baseline 0?)
+
+	* x (U+0078): X=140.5,Y=0.5 (should be at baseline 0?)
+
+	* y (U+0079): X=204.5,Y=498.5 (should be at x-height 500?)
+
+	* y (U+0079): X=533.5,Y=498.0 (should be at x-height 500?)
+
+	* macron (U+00AF): X=64.0,Y=750.5 (should be at ascender 750?)
+
+	* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?)
+
+	* Eacute (U+00C9): X=283.0,Y=748.0 (should be at ascender 750?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* four (U+0034) contains a short segment L<<128.0,180.0>--<125.0,180.0>>
+	* four (U+0034) contains a short segment L<<98.0,180.0>--<95.0,180.0>>
 
-	* four (U+0034) contains a short segment L<<125.0,180.0>--<122.0,180.0>>
+	* four (U+0034) contains a short segment L<<95.0,180.0>--<92.0,180.0>>
 
-	* R (U+0052) contains a short segment B<<354.0,291.0>-<348.0,291.0>-<341.0,291.0>>
+	* five (U+0035) contains a short segment B<<199.0,591.0>-<199.0,592.0>-<197.0,575.5>>
 
-	* W (U+0057) contains a short segment B<<87.0,610.0>-<85.0,621.0>-<83.5,630.0>>
+	* five (U+0035) contains a short segment B<<181.0,443.5>-<179.0,427.0>-<179.0,427.0>>
 
-	* W (U+0057) contains a short segment B<<83.5,630.0>-<82.0,639.0>-<82.0,648.0>>
+	* K (U+004B) contains a short segment B<<201.0,197.5>-<201.0,196.0>-<201.0,196.0>>
 
-	* W (U+0057) contains a short segment B<<333.0,193.0>-<335.0,183.0>-<337.5,174.5>>
+	* R (U+0052) contains a short segment B<<365.0,291.0>-<359.0,291.0>-<352.0,291.0>>
 
-	* W (U+0057) contains a short segment B<<346.5,175.0>-<349.0,184.0>-<351.0,194.0>>
+	* W (U+0057) contains a short segment B<<462.0,621.0>-<460.0,636.0>-<460.0,646.0>>
 
-	* W (U+0057) contains a short segment B<<458.5,643.0>-<463.0,658.0>-<468.0,669.0>>
+	* W (U+0057) contains a short segment B<<532.0,711.0>-<535.0,711.0>-<537.0,711.0>>
 
-	* W (U+0057) contains a short segment B<<503.0,704.0>-<511.0,706.0>-<522.0,706.0>>
+	* W (U+0057) contains a short segment B<<537.0,711.0>-<540.0,711.0>-<544.0,711.0>>
 
-	* W (U+0057) contains a short segment L<<523.0,706.0>--<523.0,706.0>>
+	* W (U+0057) contains a short segment B<<864.0,621.0>-<862.0,636.0>-<862.0,646.0>>
 
-	* W (U+0057) contains a short segment B<<523.0,706.0>-<536.0,706.0>-<546.0,703.0>>
+	* X (U+0058) contains a short segment B<<239.0,342.0>-<252.0,356.0>-<252.0,356.0>>
 
-	* W (U+0057) contains a short segment B<<546.0,703.0>-<557.0,699.0>-<565.0,691.5>>
+	* Y (U+0059) contains a short segment B<<437.0,617.5>-<435.0,636.0>-<435.0,633.0>>
 
-	* W (U+0057) contains a short segment B<<565.0,691.5>-<573.0,684.0>-<577.0,670.0>>
+	* Y (U+0059) contains a short segment L<<529.0,205.0>--<529.0,205.0>>
 
-	* W (U+0057) contains a short segment B<<577.0,670.0>-<582.0,659.0>-<586.5,644.0>>
+	* Y (U+0059) contains a short segment B<<529.0,205.0>-<529.0,203.0>-<529.0,203.0>>
 
-	* W (U+0057) contains a short segment B<<694.0,193.0>-<696.0,183.0>-<698.5,174.5>>
+	* Y (U+0059) contains a short segment B<<529.0,203.0>-<529.0,200.0>-<529.0,196.0>>
 
-	* W (U+0057) contains a short segment B<<707.5,175.0>-<710.0,184.0>-<712.0,194.0>>
+	* Y (U+0059) contains a short segment L<<529.0,196.0>--<529.0,196.0>>
 
-	* W (U+0057) contains a short segment B<<962.0,646.0>-<962.0,638.0>-<960.5,629.0>>
+	* Z (U+005A) contains a short segment B<<68.0,53.0>-<68.0,61.0>-<69.0,70.5>>
 
-	* W (U+0057) contains a short segment B<<960.5,629.0>-<959.0,620.0>-<957.0,609.0>>
+	* Z (U+005A) contains a short segment B<<358.5,576.5>-<365.0,578.0>-<355.0,578.0>>
 
-	* Z (U+005A) contains a short segment B<<365.5,577.0>-<373.0,578.0>-<363.0,578.0>>
+	* Z (U+005A) contains a short segment B<<516.0,640.0>-<516.0,632.0>-<514.0,623.5>>
 
-	* Z (U+005A) contains a short segment B<<261.0,116.0>-<254.0,115.0>-<263.0,115.0>>
+	* f (U+0066) contains a short segment L<<109.0,379.0>--<99.0,379.0>>
 
-	* f (U+0066) contains a short segment L<<111.0,379.0>--<101.0,379.0>>
+	* w (U+0077) contains a short segment B<<308.0,436.0>-<308.0,437.0>-<308.0,440.0>>
 
-	* x (U+0078) contains a short segment L<<380.0,270.0>--<376.0,270.0>>
+	* w (U+0077) contains a short segment B<<308.0,440.0>-<308.0,443.0>-<308.0,446.0>>
+
+	* w (U+0077) contains a short segment B<<366.0,509.0>-<372.0,511.0>-<378.0,511.0>>
+
+	* w (U+0077) contains a short segment L<<382.0,511.0>--<385.0,511.0>>
+
+	* w (U+0077) contains a short segment B<<449.0,462.0>-<452.0,455.0>-<454.0,448.0>>
 
 	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
 
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
-	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
-
-	* fi (U+FB01) contains a short segment L<<104.0,500.0>--<104.0,520.0>> [code: found-short-segments]
+	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* W (U+0057): L<<522.0,706.0>--<523.0,706.0>> -> L<<523.0,706.0>--<523.0,706.0>>
+	* four (U+0034): L<<324.0,180.0>--<98.0,180.0>> -> L<<98.0,180.0>--<95.0,180.0>>
 
-	* Z (U+005A): L<<107.0,81.0>--<224.0,327.0>> -> L<<224.0,327.0>--<317.0,529.0>>
+	* four (U+0034): L<<98.0,180.0>--<95.0,180.0>> -> L<<95.0,180.0>--<92.0,180.0>>
 
-	* Z (U+005A): L<<519.0,612.0>--<402.0,366.0>> -> L<<402.0,366.0>--<309.0,164.0>>
-
-	* four (U+0034): L<<128.0,180.0>--<125.0,180.0>> -> L<<125.0,180.0>--<122.0,180.0>>
-
-	* four (U+0034): L<<324.0,180.0>--<128.0,180.0>> -> L<<128.0,180.0>--<125.0,180.0>> [code: found-colinear-vectors]
+	* w (U+0077): L<<378.0,511.0>--<382.0,511.0>> -> L<<382.0,511.0>--<385.0,511.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* W (U+0057): B<<337.5,174.5>-<340.0,166.0>-<342.0,143.0>>/B<<342.0,143.0>-<344.0,166.0>-<346.5,175.0>> = 9.939481456220602
+	* Z (U+005A): B<<245.0,125.0>-<231.0,116.0>-<225.0,115.0>>/L<<225.0,115.0>--<487.0,115.0>> = 9.462322208025613
 
-	* W (U+0057): B<<698.5,174.5>-<701.0,166.0>-<703.0,143.0>>/B<<703.0,143.0>-<705.0,166.0>-<707.5,175.0>> = 9.939481456220602
-
-	* b (U+0062): B<<197.5,509.0>-<194.0,476.0>-<186.0,450.0>>/B<<186.0,450.0>-<206.0,483.0>-<237.0,497.5>> = 14.11567379529398
+	* b (U+0062): B<<199.5,509.0>-<196.0,476.0>-<188.0,450.0>>/B<<188.0,450.0>-<208.0,483.0>-<239.0,497.5>> = 14.11567379529398
 
 	* d (U+0064): B<<333.5,497.5>-<365.0,483.0>-<384.0,450.0>>/B<<384.0,450.0>-<376.0,476.0>-<372.5,509.0>> = 12.828782871455394
 
-	* p (U+0070): B<<237.0,2.5>-<206.0,17.0>-<186.0,50.0>>/B<<186.0,50.0>-<194.0,25.0>-<197.5,-8.5>> = 13.473731139289438
+	* nine (U+0039): B<<146.0,634.0>-<202.0,703.0>-<300.0,710.0>>/B<<300.0,710.0>-<287.0,711.0>-<273.0,711.0>> = 8.484322134970375
+
+	* nine (U+0039): B<<321.0,711.0>-<310.0,711.0>-<300.0,710.0>>/B<<300.0,710.0>-<399.0,704.0>-<458.0,657.5>> = 9.17882239641675
+
+	* p (U+0070): B<<239.0,2.5>-<208.0,17.0>-<188.0,50.0>>/B<<188.0,50.0>-<196.0,25.0>-<199.5,-8.5>> = 13.473731139289438
 
 	* q (U+0071): B<<372.5,-8.5>-<376.0,25.0>-<384.0,50.0>>/B<<384.0,50.0>-<365.0,17.0>-<333.5,2.5>> = 12.186840215450822
 
-	* two (U+0032): B<<217.5,148.0>-<195.0,134.0>-<177.0,109.0>>/B<<177.0,109.0>-<189.0,123.0>-<207.0,131.0>> = 4.847407390567654
-
-	* v (U+0076): B<<249.5,169.5>-<252.0,163.0>-<254.0,146.0>>/B<<254.0,146.0>-<256.0,163.0>-<258.5,170.0>> = 13.41967361551383
-
-	* w (U+0077): B<<249.5,169.5>-<252.0,163.0>-<254.0,146.0>>/B<<254.0,146.0>-<256.0,163.0>-<258.5,170.0>> = 13.41967361551383
-
-	* w (U+0077): B<<600.5,169.5>-<603.0,163.0>-<605.0,146.0>>/B<<605.0,146.0>-<607.0,163.0>-<609.5,170.0>> = 13.41967361551383
+	* two (U+0032): B<<206.5,127.5>-<202.0,117.0>-<197.0,109.0>>/B<<197.0,109.0>-<209.0,123.0>-<227.0,131.0>> = 8.595911436920954
 
 	* z (U+007A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* T (U+0054): L<<202.0,38.0>--<201.0,503.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1123,15 +1047,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Dutch (Latn, 31,709,104 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 14 | 14 | 124 | 7 | 92 | 0 |
-| 0% | 6% | 6% | 49% | 3% | 37% | 0% |
+| 1 | 13 | 13 | 126 | 7 | 92 | 0 |
+| 0% | 5% | 5% | 50% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
