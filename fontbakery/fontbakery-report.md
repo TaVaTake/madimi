@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[27] Madimi-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+<details><summary><b>[26] Madimi-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
@@ -629,10 +629,6 @@ fontbakery version: 0.10.1
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Madimi-Bold.ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 262, but got 250 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -677,8 +673,6 @@ fontbakery version: 0.10.1
 	- Glyph name: cedilla	Expected: 1
 
 	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: questiondown	Expected: 2
 
 	- Glyph name: circumflex	Expected: 1
 
@@ -772,8 +766,6 @@ fontbakery version: 0.10.1
 
 	- Glyph name: parenright	Expected: 1
 
-	- Glyph name: questiondown	Expected: 2
-
 	- Glyph name: quotedbl	Expected: 2
 
 	- Glyph name: quotedblleft	Expected: 2
@@ -846,17 +838,17 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, canadian-aboriginal, math, coptic, tai-le, syriac
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tai-le, coptic, tifinagh, malayalam, math, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -871,8 +863,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- ellipisis
 
 	- uni030C.alt
  [code: unreachable-glyphs]
@@ -917,27 +907,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* t (U+0074): X=301.0,Y=499.0 (should be at x-height 500?)
 
-	* v (U+0076): X=137.5,Y=498.5 (should be at x-height 500?)
+	* v (U+0076): X=136.5,Y=498.5 (should be at x-height 500?)
 
-	* v (U+0076): X=466.5,Y=498.0 (should be at x-height 500?)
+	* v (U+0076): X=465.5,Y=498.0 (should be at x-height 500?)
 
-	* v (U+0076): X=315.0,Y=-2.0 (should be at baseline 0?)
-
-	* w (U+0077): X=137.5,Y=498.5 (should be at x-height 500?)
+	* v (U+0076): X=283.5,Y=-2.0 (should be at baseline 0?)
 
 	* x (U+0078): X=374.0,Y=-1.0 (should be at baseline 0?)
 
 	* x (U+0078): X=140.5,Y=0.5 (should be at baseline 0?)
 
-	* y (U+0079): X=204.5,Y=498.5 (should be at x-height 500?)
+	* y (U+0079): X=133.5,Y=498.5 (should be at x-height 500?)
 
-	* y (U+0079): X=533.5,Y=498.0 (should be at x-height 500?)
+	* y (U+0079): X=461.5,Y=498.5 (should be at x-height 500?)
 
 	* macron (U+00AF): X=64.0,Y=750.5 (should be at ascender 750?)
 
-	* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?)
-
-	* Eacute (U+00C9): X=283.0,Y=748.0 (should be at ascender 750?) [code: found-misalignments]
+	* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -950,6 +936,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* five (U+0035) contains a short segment B<<199.0,591.0>-<199.0,592.0>-<197.0,575.5>>
 
 	* five (U+0035) contains a short segment B<<181.0,443.5>-<179.0,427.0>-<179.0,427.0>>
+
+	* question (U+003F) contains a short segment B<<255.0,269.0>-<256.0,266.0>-<257.0,261.0>>
 
 	* K (U+004B) contains a short segment B<<201.0,197.5>-<201.0,196.0>-<201.0,196.0>>
 
@@ -983,21 +971,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* f (U+0066) contains a short segment L<<109.0,379.0>--<99.0,379.0>>
 
-	* w (U+0077) contains a short segment B<<308.0,436.0>-<308.0,437.0>-<308.0,440.0>>
-
-	* w (U+0077) contains a short segment B<<308.0,440.0>-<308.0,443.0>-<308.0,446.0>>
-
-	* w (U+0077) contains a short segment B<<366.0,509.0>-<372.0,511.0>-<378.0,511.0>>
-
-	* w (U+0077) contains a short segment L<<382.0,511.0>--<385.0,511.0>>
-
-	* w (U+0077) contains a short segment B<<449.0,462.0>-<452.0,455.0>-<454.0,448.0>>
-
 	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
 
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
-	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>> [code: found-short-segments]
+	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
+
+	* questiondown (U+00BF) contains a short segment B<<250.0,232.0>-<249.0,235.0>-<248.0,240.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1005,9 +985,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* four (U+0034): L<<324.0,180.0>--<98.0,180.0>> -> L<<98.0,180.0>--<95.0,180.0>>
 
-	* four (U+0034): L<<98.0,180.0>--<95.0,180.0>> -> L<<95.0,180.0>--<92.0,180.0>>
-
-	* w (U+0077): L<<378.0,511.0>--<382.0,511.0>> -> L<<382.0,511.0>--<385.0,511.0>> [code: found-colinear-vectors]
+	* four (U+0034): L<<98.0,180.0>--<95.0,180.0>> -> L<<95.0,180.0>--<92.0,180.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1015,17 +993,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Z (U+005A): B<<245.0,125.0>-<231.0,116.0>-<225.0,115.0>>/L<<225.0,115.0>--<487.0,115.0>> = 9.462322208025613
 
-	* b (U+0062): B<<199.5,509.0>-<196.0,476.0>-<188.0,450.0>>/B<<188.0,450.0>-<208.0,483.0>-<239.0,497.5>> = 14.11567379529398
+	* b (U+0062): B<<187.5,486.5>-<184.0,468.0>-<177.0,447.0>>/B<<177.0,447.0>-<196.0,478.0>-<229.5,493.0>> = 13.069317896282163
 
-	* d (U+0064): B<<333.5,497.5>-<365.0,483.0>-<384.0,450.0>>/B<<384.0,450.0>-<376.0,476.0>-<372.5,509.0>> = 12.828782871455394
+	* d (U+0064): B<<325.0,493.0>-<358.0,478.0>-<377.0,447.0>>/B<<377.0,447.0>-<370.0,468.0>-<366.5,486.5>> = 13.069317896282163
 
-	* nine (U+0039): B<<146.0,634.0>-<202.0,703.0>-<300.0,710.0>>/B<<300.0,710.0>-<287.0,711.0>-<273.0,711.0>> = 8.484322134970375
+	* h (U+0068): B<<199.0,523.0>-<193.0,497.0>-<179.0,469.0>>/B<<179.0,469.0>-<214.0,512.0>-<289.0,512.0>> = 12.578935237493004
 
-	* nine (U+0039): B<<321.0,711.0>-<310.0,711.0>-<300.0,710.0>>/B<<300.0,710.0>-<399.0,704.0>-<458.0,657.5>> = 9.17882239641675
+	* p (U+0070): B<<229.5,7.0>-<196.0,22.0>-<177.0,53.0>>/B<<177.0,53.0>-<184.0,33.0>-<187.5,14.0>> = 12.21422050001543
 
-	* p (U+0070): B<<239.0,2.5>-<208.0,17.0>-<188.0,50.0>>/B<<188.0,50.0>-<196.0,25.0>-<199.5,-8.5>> = 13.473731139289438
-
-	* q (U+0071): B<<372.5,-8.5>-<376.0,25.0>-<384.0,50.0>>/B<<384.0,50.0>-<365.0,17.0>-<333.5,2.5>> = 12.186840215450822
+	* q (U+0071): B<<366.5,14.0>-<370.0,33.0>-<377.0,53.0>>/B<<377.0,53.0>-<358.0,22.0>-<325.0,7.0>> = 12.21422050001543
 
 	* two (U+0032): B<<206.5,127.5>-<202.0,117.0>-<197.0,109.0>>/B<<197.0,109.0>-<209.0,123.0>-<227.0,131.0>> = 8.595911436920954
 
@@ -1047,14 +1023,14 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 13 | 13 | 126 | 7 | 92 | 0 |
+| 1 | 12 | 13 | 126 | 7 | 93 | 0 |
 | 0% | 5% | 5% | 50% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

@@ -128,11 +128,11 @@ ul {
             </tr>
             <tr>
                 <td>1</td>
-                <td>13</td>
+                <td>12</td>
                 <td>13</td>
                 <td>126</td>
                 <td>7</td>
-                <td>92</td>
+                <td>93</td>
             </tr>
             <tr>
                 <td>0%</td>
@@ -140,7 +140,7 @@ ul {
                 <td>6%</td>
                 <td>62%</td>
                 <td>3%</td>
-                <td>45%</td>
+                <td>46%</td>
             </tr>
             </table>
             
@@ -781,17 +781,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, canadian-aboriginal, math, coptic, tai-le, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tai-le, coptic, tifinagh, malayalam, math, old-permic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -833,12 +833,7 @@ definitions.</p>
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
-<span class='section__emoji'>💥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
-<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
-
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 262, but got 250 instead [code: descent]</p>
-</span></li></ul></div></details>
+<span class='section__emoji'>💥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/os2_metrics_match_hhea</div>
 
@@ -863,9 +858,7 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/unreachable_glyphs</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- ellipisis
-
-- uni030C.alt
+<pre><code>- uni030C.alt
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -900,8 +893,6 @@ definitions.</p>
 - Glyph name: cedilla	Expected: 1
 
 - Glyph name: guillemotright	Expected: 2
-
-- Glyph name: questiondown	Expected: 2
 
 - Glyph name: circumflex	Expected: 1
 
@@ -994,8 +985,6 @@ definitions.</p>
 - Glyph name: parenleft	Expected: 1
 
 - Glyph name: parenright	Expected: 1
-
-- Glyph name: questiondown	Expected: 2
 
 - Glyph name: quotedbl	Expected: 2
 
@@ -1111,27 +1100,23 @@ definitions.</p>
 
 * t (U+0074): X=301.0,Y=499.0 (should be at x-height 500?)
 
-* v (U+0076): X=137.5,Y=498.5 (should be at x-height 500?)
+* v (U+0076): X=136.5,Y=498.5 (should be at x-height 500?)
 
-* v (U+0076): X=466.5,Y=498.0 (should be at x-height 500?)
+* v (U+0076): X=465.5,Y=498.0 (should be at x-height 500?)
 
-* v (U+0076): X=315.0,Y=-2.0 (should be at baseline 0?)
-
-* w (U+0077): X=137.5,Y=498.5 (should be at x-height 500?)
+* v (U+0076): X=283.5,Y=-2.0 (should be at baseline 0?)
 
 * x (U+0078): X=374.0,Y=-1.0 (should be at baseline 0?)
 
 * x (U+0078): X=140.5,Y=0.5 (should be at baseline 0?)
 
-* y (U+0079): X=204.5,Y=498.5 (should be at x-height 500?)
+* y (U+0079): X=133.5,Y=498.5 (should be at x-height 500?)
 
-* y (U+0079): X=533.5,Y=498.0 (should be at x-height 500?)
+* y (U+0079): X=461.5,Y=498.5 (should be at x-height 500?)
 
 * macron (U+00AF): X=64.0,Y=750.5 (should be at ascender 750?)
 
-* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?)
-
-* Eacute (U+00C9): X=283.0,Y=748.0 (should be at ascender 750?) [code: found-misalignments]
+* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Are any segments inordinately short?</h3>
@@ -1145,6 +1130,8 @@ definitions.</p>
 * five (U+0035) contains a short segment B&lt;&lt;199.0,591.0&gt;-&lt;199.0,592.0&gt;-&lt;197.0,575.5&gt;&gt;
 
 * five (U+0035) contains a short segment B&lt;&lt;181.0,443.5&gt;-&lt;179.0,427.0&gt;-&lt;179.0,427.0&gt;&gt;
+
+* question (U+003F) contains a short segment B&lt;&lt;255.0,269.0&gt;-&lt;256.0,266.0&gt;-&lt;257.0,261.0&gt;&gt;
 
 * K (U+004B) contains a short segment B&lt;&lt;201.0,197.5&gt;-&lt;201.0,196.0&gt;-&lt;201.0,196.0&gt;&gt;
 
@@ -1178,21 +1165,13 @@ definitions.</p>
 
 * f (U+0066) contains a short segment L&lt;&lt;109.0,379.0&gt;--&lt;99.0,379.0&gt;&gt;
 
-* w (U+0077) contains a short segment B&lt;&lt;308.0,436.0&gt;-&lt;308.0,437.0&gt;-&lt;308.0,440.0&gt;&gt;
-
-* w (U+0077) contains a short segment B&lt;&lt;308.0,440.0&gt;-&lt;308.0,443.0&gt;-&lt;308.0,446.0&gt;&gt;
-
-* w (U+0077) contains a short segment B&lt;&lt;366.0,509.0&gt;-&lt;372.0,511.0&gt;-&lt;378.0,511.0&gt;&gt;
-
-* w (U+0077) contains a short segment L&lt;&lt;382.0,511.0&gt;--&lt;385.0,511.0&gt;&gt;
-
-* w (U+0077) contains a short segment B&lt;&lt;449.0,462.0&gt;-&lt;452.0,455.0&gt;-&lt;454.0,448.0&gt;&gt;
-
 * z (U+007A) contains a short segment B&lt;&lt;34.0,43.0&gt;-&lt;34.0,48.0&gt;-&lt;36.0,56.0&gt;&gt;
 
 * z (U+007A) contains a short segment B&lt;&lt;238.0,374.0&gt;-&lt;247.0,378.0&gt;-&lt;245.0,378.0&gt;&gt;
 
-* z (U+007A) contains a short segment B&lt;&lt;204.0,122.5&gt;-&lt;199.0,122.0&gt;-&lt;206.0,122.0&gt;&gt; [code: found-short-segments]
+* z (U+007A) contains a short segment B&lt;&lt;204.0,122.5&gt;-&lt;199.0,122.0&gt;-&lt;206.0,122.0&gt;&gt;
+
+* questiondown (U+00BF) contains a short segment B&lt;&lt;250.0,232.0&gt;-&lt;249.0,235.0&gt;-&lt;248.0,240.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do any segments have colinear vectors?</h3>
@@ -1201,9 +1180,7 @@ definitions.</p>
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
 <pre><code>* four (U+0034): L&lt;&lt;324.0,180.0&gt;--&lt;98.0,180.0&gt;&gt; -&gt; L&lt;&lt;98.0,180.0&gt;--&lt;95.0,180.0&gt;&gt;
 
-* four (U+0034): L&lt;&lt;98.0,180.0&gt;--&lt;95.0,180.0&gt;&gt; -&gt; L&lt;&lt;95.0,180.0&gt;--&lt;92.0,180.0&gt;&gt;
-
-* w (U+0077): L&lt;&lt;378.0,511.0&gt;--&lt;382.0,511.0&gt;&gt; -&gt; L&lt;&lt;382.0,511.0&gt;--&lt;385.0,511.0&gt;&gt; [code: found-colinear-vectors]
+* four (U+0034): L&lt;&lt;98.0,180.0&gt;--&lt;95.0,180.0&gt;&gt; -&gt; L&lt;&lt;95.0,180.0&gt;--&lt;92.0,180.0&gt;&gt; [code: found-colinear-vectors]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any jaggy segments?</h3>
@@ -1212,17 +1189,15 @@ definitions.</p>
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
 <pre><code>* Z (U+005A): B&lt;&lt;245.0,125.0&gt;-&lt;231.0,116.0&gt;-&lt;225.0,115.0&gt;&gt;/L&lt;&lt;225.0,115.0&gt;--&lt;487.0,115.0&gt;&gt; = 9.462322208025613
 
-* b (U+0062): B&lt;&lt;199.5,509.0&gt;-&lt;196.0,476.0&gt;-&lt;188.0,450.0&gt;&gt;/B&lt;&lt;188.0,450.0&gt;-&lt;208.0,483.0&gt;-&lt;239.0,497.5&gt;&gt; = 14.11567379529398
+* b (U+0062): B&lt;&lt;187.5,486.5&gt;-&lt;184.0,468.0&gt;-&lt;177.0,447.0&gt;&gt;/B&lt;&lt;177.0,447.0&gt;-&lt;196.0,478.0&gt;-&lt;229.5,493.0&gt;&gt; = 13.069317896282163
 
-* d (U+0064): B&lt;&lt;333.5,497.5&gt;-&lt;365.0,483.0&gt;-&lt;384.0,450.0&gt;&gt;/B&lt;&lt;384.0,450.0&gt;-&lt;376.0,476.0&gt;-&lt;372.5,509.0&gt;&gt; = 12.828782871455394
+* d (U+0064): B&lt;&lt;325.0,493.0&gt;-&lt;358.0,478.0&gt;-&lt;377.0,447.0&gt;&gt;/B&lt;&lt;377.0,447.0&gt;-&lt;370.0,468.0&gt;-&lt;366.5,486.5&gt;&gt; = 13.069317896282163
 
-* nine (U+0039): B&lt;&lt;146.0,634.0&gt;-&lt;202.0,703.0&gt;-&lt;300.0,710.0&gt;&gt;/B&lt;&lt;300.0,710.0&gt;-&lt;287.0,711.0&gt;-&lt;273.0,711.0&gt;&gt; = 8.484322134970375
+* h (U+0068): B&lt;&lt;199.0,523.0&gt;-&lt;193.0,497.0&gt;-&lt;179.0,469.0&gt;&gt;/B&lt;&lt;179.0,469.0&gt;-&lt;214.0,512.0&gt;-&lt;289.0,512.0&gt;&gt; = 12.578935237493004
 
-* nine (U+0039): B&lt;&lt;321.0,711.0&gt;-&lt;310.0,711.0&gt;-&lt;300.0,710.0&gt;&gt;/B&lt;&lt;300.0,710.0&gt;-&lt;399.0,704.0&gt;-&lt;458.0,657.5&gt;&gt; = 9.17882239641675
+* p (U+0070): B&lt;&lt;229.5,7.0&gt;-&lt;196.0,22.0&gt;-&lt;177.0,53.0&gt;&gt;/B&lt;&lt;177.0,53.0&gt;-&lt;184.0,33.0&gt;-&lt;187.5,14.0&gt;&gt; = 12.21422050001543
 
-* p (U+0070): B&lt;&lt;239.0,2.5&gt;-&lt;208.0,17.0&gt;-&lt;188.0,50.0&gt;&gt;/B&lt;&lt;188.0,50.0&gt;-&lt;196.0,25.0&gt;-&lt;199.5,-8.5&gt;&gt; = 13.473731139289438
-
-* q (U+0071): B&lt;&lt;372.5,-8.5&gt;-&lt;376.0,25.0&gt;-&lt;384.0,50.0&gt;&gt;/B&lt;&lt;384.0,50.0&gt;-&lt;365.0,17.0&gt;-&lt;333.5,2.5&gt;&gt; = 12.186840215450822
+* q (U+0071): B&lt;&lt;366.5,14.0&gt;-&lt;370.0,33.0&gt;-&lt;377.0,53.0&gt;&gt;/B&lt;&lt;377.0,53.0&gt;-&lt;358.0,22.0&gt;-&lt;325.0,7.0&gt;&gt; = 12.21422050001543
 
 * two (U+0032): B&lt;&lt;206.5,127.5&gt;-&lt;202.0,117.0&gt;-&lt;197.0,109.0&gt;&gt;/B&lt;&lt;197.0,109.0&gt;-&lt;209.0,123.0&gt;-&lt;227.0,131.0&gt;&gt; = 8.595911436920954
 
@@ -1248,7 +1223,7 @@ definitions.</p>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
