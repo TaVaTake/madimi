@@ -843,12 +843,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, tai-le, coptic, syriac, tifinagh, math, malayalam
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, coptic, math, syriac, tai-le, old-permic, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -889,17 +889,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* three (U+0033): X=192.0,Y=-2.0 (should be at baseline 0?)
 
-	* K (U+004B): X=453.5,Y=698.0 (should be at cap-height 700?)
+	* D (U+0044): X=125.0,Y=-2.0 (should be at baseline 0?)
 
-	* K (U+004B): X=554.5,Y=698.0 (should be at cap-height 700?)
+	* D (U+0044): X=294.0,Y=698.0 (should be at cap-height 700?)
+
+	* D (U+0044): X=294.0,Y=-2.0 (should be at baseline 0?)
+
+	* K (U+004B): X=456.5,Y=698.0 (should be at cap-height 700?)
+
+	* K (U+004B): X=557.5,Y=698.0 (should be at cap-height 700?)
 
 	* M (U+004D): X=448.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=158.0,Y=-2.0 (should be at baseline 0?)
 
-	* X (U+0058): X=97.5,Y=0.5 (should be at baseline 0?)
+	* X (U+0058): X=118.5,Y=0.5 (should be at baseline 0?)
 
-	* X (U+0058): X=529.5,Y=0.5 (should be at baseline 0?)
+	* X (U+0058): X=515.0,Y=0.5 (should be at baseline 0?)
 
 	* Y (U+0059): X=179.0,Y=-2.0 (should be at baseline 0?)
 
@@ -945,9 +951,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* question (U+003F) contains a short segment B<<255.0,269.0>-<256.0,266.0>-<257.0,261.0>>
 
-	* K (U+004B) contains a short segment B<<201.0,197.5>-<201.0,196.0>-<201.0,196.0>>
+	* K (U+004B) contains a short segment B<<204.0,197.5>-<204.0,196.0>-<204.0,196.0>>
 
-	* R (U+0052) contains a short segment B<<365.0,291.0>-<359.0,291.0>-<352.0,291.0>>
+	* R (U+0052) contains a short segment B<<368.0,291.0>-<362.0,291.0>-<355.0,291.0>>
 
 	* W (U+0057) contains a short segment B<<462.0,621.0>-<460.0,636.0>-<460.0,646.0>>
 
@@ -957,7 +963,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* W (U+0057) contains a short segment B<<864.0,621.0>-<862.0,636.0>-<862.0,646.0>>
 
-	* X (U+0058) contains a short segment B<<239.0,342.0>-<252.0,356.0>-<252.0,356.0>>
+	* X (U+0058) contains a short segment B<<164.5,242.0>-<175.0,257.0>-<175.0,257.0>>
+
+	* X (U+0058) contains a short segment B<<338.0,245.0>-<338.0,245.0>-<328.0,229.5>>
 
 	* Y (U+0059) contains a short segment B<<346.0,281.0>-<340.0,282.0>-<333.5,282.0>>
 
@@ -973,11 +981,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Y (U+0059) contains a short segment L<<529.0,200.0>--<529.0,200.0>>
 
-	* Z (U+005A) contains a short segment B<<68.0,60.0>-<68.0,68.0>-<69.0,77.5>>
+	* Z (U+005A) contains a short segment B<<355.5,559.5>-<362.0,561.0>-<352.0,561.0>>
 
-	* Z (U+005A) contains a short segment B<<358.5,576.5>-<365.0,578.0>-<355.0,578.0>>
-
-	* Z (U+005A) contains a short segment B<<516.0,640.0>-<516.0,632.0>-<514.0,623.5>>
+	* Z (U+005A) contains a short segment B<<523.0,640.0>-<523.0,632.0>-<521.0,623.5>>
 
 	* f (U+0066) contains a short segment L<<109.0,379.0>--<99.0,379.0>>
 
@@ -1001,13 +1007,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Z (U+005A): B<<244.5,132.0>-<231.0,123.0>-<225.0,122.0>>/L<<225.0,122.0>--<487.0,122.0>> = 9.462322208025613
+	* Z (U+005A): B<<250.0,148.5>-<236.0,140.0>-<231.0,139.0>>/L<<231.0,139.0>--<488.0,139.0>> = 11.309932474020195
 
 	* b (U+0062): B<<187.5,490.5>-<184.0,472.0>-<177.0,451.0>>/B<<177.0,451.0>-<196.0,482.0>-<229.5,497.0>> = 13.069317896282163
 
 	* d (U+0064): B<<325.0,497.0>-<358.0,482.0>-<377.0,451.0>>/B<<377.0,451.0>-<370.0,472.0>-<366.5,490.5>> = 13.069317896282163
 
-	* h (U+0068): B<<199.0,523.0>-<193.0,497.0>-<179.0,469.0>>/B<<179.0,469.0>-<214.0,512.0>-<289.0,512.0>> = 12.578935237493004
+	* h (U+0068): B<<199.0,523.0>-<193.0,497.0>-<179.0,469.0>>/B<<179.0,469.0>-<214.0,511.0>-<289.0,511.0>> = 13.240519915187155
 
 	* p (U+0070): B<<229.5,7.0>-<196.0,22.0>-<177.0,53.0>>/B<<177.0,53.0>-<184.0,33.0>-<187.5,14.0>> = 12.21422050001543
 
@@ -1033,7 +1039,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Dutch (Latn, 31,709,104 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ma’di (Latn, 584,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
