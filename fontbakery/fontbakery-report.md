@@ -819,11 +819,6 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
 * 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -838,16 +833,16 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, coptic, math, syriac, tai-le, old-permic, malayalam
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, malayalam, syriac, tifinagh, tai-le, canadian-aboriginal, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -874,40 +869,52 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** The following glyphs were present but did not contain any outlines: bracketleft [code: empty-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* numbersign (U+0023): X=50.0,Y=0.5 (should be at baseline 0?)
+	* numbersign (U+0023): X=80.0,Y=0.5 (should be at baseline 0?)
 
-	* numbersign (U+0023): X=290.5,Y=699.5 (should be at cap-height 700?)
+	* numbersign (U+0023): X=320.5,Y=699.5 (should be at cap-height 700?)
 
-	* numbersign (U+0023): X=622.5,Y=699.5 (should be at cap-height 700?)
+	* numbersign (U+0023): X=612.5,Y=699.5 (should be at cap-height 700?)
 
-	* numbersign (U+0023): X=382.0,Y=0.5 (should be at baseline 0?)
+	* numbersign (U+0023): X=372.0,Y=0.5 (should be at baseline 0?)
 
 	* three (U+0033): X=192.0,Y=-2.0 (should be at baseline 0?)
 
-	* D (U+0044): X=125.0,Y=-2.0 (should be at baseline 0?)
+	* C (U+0043): X=439.5,Y=698.0 (should be at cap-height 700?)
 
-	* D (U+0044): X=294.0,Y=698.0 (should be at cap-height 700?)
+	* D (U+0044): X=116.0,Y=-2.0 (should be at baseline 0?)
 
-	* D (U+0044): X=294.0,Y=-2.0 (should be at baseline 0?)
+	* D (U+0044): X=285.0,Y=-2.0 (should be at baseline 0?)
 
-	* K (U+004B): X=456.5,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): X=427.5,Y=698.0 (should be at cap-height 700?)
 
-	* K (U+004B): X=557.5,Y=698.0 (should be at cap-height 700?)
+	* K (U+004B): X=528.5,Y=698.0 (should be at cap-height 700?)
 
-	* M (U+004D): X=448.0,Y=2.0 (should be at baseline 0?)
+	* M (U+004D): X=458.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=158.0,Y=-2.0 (should be at baseline 0?)
 
-	* X (U+0058): X=118.5,Y=0.5 (should be at baseline 0?)
+	* X (U+0058): X=525.0,Y=0.5 (should be at baseline 0?)
 
-	* X (U+0058): X=515.0,Y=0.5 (should be at baseline 0?)
+	* X (U+0058): X=94.5,Y=-1.5 (should be at baseline 0?)
 
-	* Y (U+0059): X=179.0,Y=-2.0 (should be at baseline 0?)
+	* Y (U+0059): X=236.0,Y=-1.0 (should be at baseline 0?)
+
+	* Y (U+0059): X=234.0,Y=698.5 (should be at cap-height 700?)
+
+	* Y (U+0059): X=553.5,Y=698.0 (should be at cap-height 700?)
+
+	* Y (U+0059): X=236.0,Y=-1.0 (should be at baseline 0?)
+
+	* f (U+0066): X=462.0,Y=698.0 (should be at cap-height 700?)
 
 	* g (U+0067): X=325.0,Y=-1.0 (should be at baseline 0?)
 
@@ -935,7 +942,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* macron (U+00AF): X=64.0,Y=750.5 (should be at ascender 750?)
 
-	* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?) [code: found-misalignments]
+	* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?)
+
+	* questiondown (U+00BF): X=183.5,Y=1.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -949,51 +958,33 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* five (U+0035) contains a short segment B<<181.0,443.5>-<179.0,427.0>-<179.0,427.0>>
 
-	* question (U+003F) contains a short segment B<<255.0,269.0>-<256.0,266.0>-<257.0,261.0>>
+	* K (U+004B) contains a short segment B<<195.0,197.5>-<195.0,196.0>-<195.0,196.0>>
 
-	* K (U+004B) contains a short segment B<<204.0,197.5>-<204.0,196.0>-<204.0,196.0>>
+	* R (U+0052) contains a short segment B<<359.0,291.0>-<353.0,291.0>-<346.0,291.0>>
 
-	* R (U+0052) contains a short segment B<<368.0,291.0>-<362.0,291.0>-<355.0,291.0>>
+	* W (U+0057) contains a short segment B<<472.0,621.0>-<470.0,636.0>-<470.0,646.0>>
 
-	* W (U+0057) contains a short segment B<<462.0,621.0>-<460.0,636.0>-<460.0,646.0>>
+	* W (U+0057) contains a short segment B<<542.0,711.0>-<545.0,711.0>-<547.0,711.0>>
 
-	* W (U+0057) contains a short segment B<<532.0,711.0>-<535.0,711.0>-<537.0,711.0>>
+	* W (U+0057) contains a short segment B<<547.0,711.0>-<550.0,711.0>-<554.0,711.0>>
 
-	* W (U+0057) contains a short segment B<<537.0,711.0>-<540.0,711.0>-<544.0,711.0>>
+	* W (U+0057) contains a short segment B<<874.0,621.0>-<872.0,636.0>-<872.0,646.0>>
 
-	* W (U+0057) contains a short segment B<<864.0,621.0>-<862.0,636.0>-<862.0,646.0>>
+	* Z (U+005A) contains a short segment B<<60.0,55.0>-<60.0,61.0>-<61.0,67.5>>
 
-	* X (U+0058) contains a short segment B<<164.5,242.0>-<175.0,257.0>-<175.0,257.0>>
+	* Z (U+005A) contains a short segment B<<61.0,67.5>-<62.0,74.0>-<65.0,80.0>>
 
-	* X (U+0058) contains a short segment B<<338.0,245.0>-<338.0,245.0>-<328.0,229.5>>
+	* Z (U+005A) contains a short segment B<<372.5,559.5>-<379.0,561.0>-<369.0,561.0>>
 
-	* Y (U+0059) contains a short segment B<<346.0,281.0>-<340.0,282.0>-<333.5,282.0>>
+	* Z (U+005A) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.5,623.5>>
 
-	* Y (U+0059) contains a short segment B<<333.5,282.0>-<327.0,282.0>-<320.0,282.0>>
-
-	* Y (U+0059) contains a short segment B<<437.0,617.5>-<435.0,636.0>-<435.0,633.0>>
-
-	* Y (U+0059) contains a short segment L<<529.0,209.0>--<529.0,209.0>>
-
-	* Y (U+0059) contains a short segment B<<529.0,209.0>-<529.0,207.0>-<529.0,207.0>>
-
-	* Y (U+0059) contains a short segment B<<529.0,207.0>-<529.0,204.0>-<529.0,200.0>>
-
-	* Y (U+0059) contains a short segment L<<529.0,200.0>--<529.0,200.0>>
-
-	* Z (U+005A) contains a short segment B<<355.5,559.5>-<362.0,561.0>-<352.0,561.0>>
-
-	* Z (U+005A) contains a short segment B<<523.0,640.0>-<523.0,632.0>-<521.0,623.5>>
-
-	* f (U+0066) contains a short segment L<<109.0,379.0>--<99.0,379.0>>
+	* f (U+0066) contains a short segment L<<118.0,500.0>--<118.0,504.0>>
 
 	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
 
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
-	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
-
-	* questiondown (U+00BF) contains a short segment B<<250.0,232.0>-<249.0,235.0>-<248.0,240.0>> [code: found-short-segments]
+	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1001,13 +992,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* four (U+0034): L<<324.0,180.0>--<98.0,180.0>> -> L<<98.0,180.0>--<95.0,180.0>>
 
-	* four (U+0034): L<<98.0,180.0>--<95.0,180.0>> -> L<<95.0,180.0>--<92.0,180.0>> [code: found-colinear-vectors]
+	* four (U+0034): L<<98.0,180.0>--<95.0,180.0>> -> L<<95.0,180.0>--<92.0,180.0>>
+
+	* two (U+0032): L<<210.0,150.0>--<210.0,148.0>> -> L<<210.0,148.0>--<209.0,109.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Z (U+005A): B<<250.0,148.5>-<236.0,140.0>-<231.0,139.0>>/L<<231.0,139.0>--<488.0,139.0>> = 11.309932474020195
+	* Z (U+005A): B<<252.5,148.5>-<238.0,140.0>-<234.0,139.0>>/L<<234.0,139.0>--<501.0,139.0>> = 14.036243467926484
 
 	* b (U+0062): B<<187.5,490.5>-<184.0,472.0>-<177.0,451.0>>/B<<177.0,451.0>-<196.0,482.0>-<229.5,497.0>> = 13.069317896282163
 
@@ -1015,11 +1008,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* h (U+0068): B<<199.0,523.0>-<193.0,497.0>-<179.0,469.0>>/B<<179.0,469.0>-<214.0,511.0>-<289.0,511.0>> = 13.240519915187155
 
-	* p (U+0070): B<<229.5,7.0>-<196.0,22.0>-<177.0,53.0>>/B<<177.0,53.0>-<184.0,33.0>-<187.5,14.0>> = 12.21422050001543
+	* p (U+0070): B<<237.5,7.0>-<204.0,22.0>-<185.0,53.0>>/B<<185.0,53.0>-<192.0,33.0>-<195.5,14.0>> = 12.21422050001543
 
 	* q (U+0071): B<<366.5,14.0>-<370.0,33.0>-<377.0,53.0>>/B<<377.0,53.0>-<358.0,22.0>-<325.0,7.0>> = 12.21422050001543
-
-	* two (U+0032): B<<206.5,127.5>-<202.0,117.0>-<197.0,109.0>>/B<<197.0,109.0>-<209.0,123.0>-<227.0,131.0>> = 8.595911436920954
 
 	* z (U+007A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1027,7 +1018,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* T (U+0054): L<<202.0,41.0>--<201.0,503.0>> [code: found-semi-vertical]
+	* T (U+0054): L<<202.0,41.0>--<201.0,509.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1039,15 +1030,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ma’di (Latn, 584,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 12 | 13 | 126 | 7 | 93 | 0 |
-| 0% | 5% | 5% | 50% | 3% | 37% | 0% |
+| 1 | 11 | 14 | 126 | 7 | 93 | 0 |
+| 0% | 4% | 6% | 50% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
