@@ -2,609 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[26] Madimi-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00A0 (NO-BREAK SPACE)
-
-
-	- 0x007C (VERTICAL LINE)
-
-
-	- 0x002B (PLUS SIGN)
-
-
-	- 0x00D7 (MULTIPLICATION SIGN)
-
-
-	- 0x00F7 (DIVISION SIGN)
-
-
-	- 0x003D (EQUALS SIGN)
-
-
-	- 0x003E (GREATER-THAN SIGN)
-
-
-	- 0x003C (LESS-THAN SIGN)
-
-
-	- 0x0025 (PERCENT SIGN)
-
-
-	- 0x00B0 (DEGREE SIGN)
-
-
-	- 0x00C1 (LATIN CAPITAL LETTER A WITH ACUTE)
-
-
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-	- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
-
-
-	- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
-	- 0x00C0 (LATIN CAPITAL LETTER A WITH GRAVE)
-
-
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
-
-
-	- 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
-
-
-	- 0x00C6 (LATIN CAPITAL LETTER AE)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x00D0 (LATIN CAPITAL LETTER ETH)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x00CA (LATIN CAPITAL LETTER E WITH CIRCUMFLEX)
-
-
-	- 0x00CB (LATIN CAPITAL LETTER E WITH DIAERESIS)
-
-
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x00C8 (LATIN CAPITAL LETTER E WITH GRAVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-	- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
-
-
-	- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
-
-
-	- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x00D1 (LATIN CAPITAL LETTER N WITH TILDE)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x00D3 (LATIN CAPITAL LETTER O WITH ACUTE)
-
-
-	- 0x00D4 (LATIN CAPITAL LETTER O WITH CIRCUMFLEX)
-
-
-	- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
-	- 0x00D2 (LATIN CAPITAL LETTER O WITH GRAVE)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
-
-
-	- 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
-
-
-	- 0x0152 (LATIN CAPITAL LIGATURE OE)
-
-
-	- 0x00DE (LATIN CAPITAL LETTER THORN)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x00DA (LATIN CAPITAL LETTER U WITH ACUTE)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-	- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
-
-
-	- 0x00D9 (LATIN CAPITAL LETTER U WITH GRAVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
-
-
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
-
-
-	- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
-
-
-	- 0x00E0 (LATIN SMALL LETTER A WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
-
-
-	- 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-	- 0x00E6 (LATIN SMALL LETTER AE)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
-
-
-	- 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x00E8 (LATIN SMALL LETTER E WITH GRAVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
-
-
-	- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
-
-
-	- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
-
-
-	- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
-
-
-	- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x00F1 (LATIN SMALL LETTER N WITH TILDE)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x00F3 (LATIN SMALL LETTER O WITH ACUTE)
-
-
-	- 0x00F4 (LATIN SMALL LETTER O WITH CIRCUMFLEX)
-
-
-	- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
-	- 0x00F2 (LATIN SMALL LETTER O WITH GRAVE)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
-
-
-	- 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
-
-
-	- 0x0153 (LATIN SMALL LIGATURE OE)
-
-
-	- 0x00FE (LATIN SMALL LETTER THORN)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x00FA (LATIN SMALL LETTER U WITH ACUTE)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-	- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
-
-
-	- 0x00F9 (LATIN SMALL LETTER U WITH GRAVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-	- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-	- 0x0040 (COMMERCIAL AT)
-
-
-	- 0x0026 (AMPERSAND)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
-	- 0x00A7 (SECTION SIGN)
-
-
-	- 0x00A9 (COPYRIGHT SIGN)
-
-
-	- 0x00AE (REGISTERED SIGN)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x00A2 (CENT SIGN)
-
-
-	- 0x0024 (DOLLAR SIGN)
-
-
-	- 0x20AC (EURO SIGN)
-
-
-	- 0x00A3 (POUND SIGN)
-
-
-	- 0x00A5 (YEN SIGN)
-
-
-	- 0x2212 (MINUS SIGN)
-
-
-	- 0x007E (TILDE)
-
-
-	- 0x005E (CIRCUMFLEX ACCENT)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[25] Madimi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -629,6 +27,11 @@ fontbakery version: 0.10.1
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Madimi-Bold.ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1000, but got 950 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 310, but got 250 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -637,179 +40,14 @@ fontbakery version: 0.10.1
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+* 🔥 **FAIL** The '.notdef' glyph should contain a drawing, but it is blank. [code: notdef-is-blank]
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
-
-	- Glyph name: quotedbl	Expected: 2
-
-	- Glyph name: quotesingle	Expected: 1
-
-	- Glyph name: parenleft	Expected: 1
-
-	- Glyph name: parenright	Expected: 1
-
-	- Glyph name: bracketleft	Expected: 1
-
-	- Glyph name: bracketright	Expected: 1
-
-	- Glyph name: grave	Expected: 1
-
-	- Glyph name: braceleft	Expected: 1
-
-	- Glyph name: braceright	Expected: 1
-
-	- Glyph name: dieresis	Expected: 2
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: acute	Expected: 1
-
-	- Glyph name: cedilla	Expected: 1
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: circumflex	Expected: 1
-
-	- Glyph name: caron	Expected: 1
-
-	- Glyph name: breve	Expected: 1
-
-	- Glyph name: dotaccent	Expected: 1
-
-	- Glyph name: ring	Expected: 2
-
-	- Glyph name: ogonek	Expected: 1
-
-	- Glyph name: hungarumlaut	Expected: 2
-
-	- Glyph name: gravecomb	Expected: 1
-
-	- Glyph name: uni0302	Expected: 1
-
-	- Glyph name: tildecomb	Expected: 1
-
-	- Glyph name: uni0306	Expected: 1
-
-	- Glyph name: uni0307	Expected: 1
-
-	- Glyph name: uni030A	Expected: 2
-
-	- Glyph name: uni030B	Expected: 2
-
-	- Glyph name: uni030C	Expected: 1
-
-	- Glyph name: uni0312	Expected: 1
-
-	- Glyph name: uni0326	Expected: 1
-
-	- Glyph name: uni0327	Expected: 1
-
-	- Glyph name: uni0328	Expected: 1
-
-	- Glyph name: quoteleft	Expected: 1
-
-	- Glyph name: quoteright	Expected: 1
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: quotedblleft	Expected: 2
-
-	- Glyph name: quotedblright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: acute	Expected: 1
-
-	- Glyph name: braceleft	Expected: 1
-
-	- Glyph name: braceright	Expected: 1
-
-	- Glyph name: bracketleft	Expected: 1
-
-	- Glyph name: bracketright	Expected: 1
-
-	- Glyph name: breve	Expected: 1
-
-	- Glyph name: caron	Expected: 1
-
-	- Glyph name: cedilla	Expected: 1
-
-	- Glyph name: circumflex	Expected: 1
-
-	- Glyph name: dieresis	Expected: 2
-
-	- Glyph name: dotaccent	Expected: 1
-
-	- Glyph name: grave	Expected: 1
-
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
-	- Glyph name: hungarumlaut	Expected: 2
-
-	- Glyph name: ogonek	Expected: 1
-
-	- Glyph name: parenleft	Expected: 1
-
-	- Glyph name: parenright	Expected: 1
-
-	- Glyph name: quotedbl	Expected: 2
-
-	- Glyph name: quotedblleft	Expected: 2
-
-	- Glyph name: quotedblright	Expected: 2
-
-	- Glyph name: quoteleft	Expected: 1
-
-	- Glyph name: quoteright	Expected: 1
-
-	- Glyph name: quotesinglbase	Expected: 1
-
-	- Glyph name: quotesingle	Expected: 1
-
-	- Glyph name: ring	Expected: 2
-
-	- Glyph name: uni0302	Expected: 1
-
-	- Glyph name: uni0306	Expected: 1
-
-	- Glyph name: uni0307	Expected: 1
-
-	- Glyph name: uni030A	Expected: 2
-
-	- Glyph name: uni030B	Expected: 2
-
-	- Glyph name: uni030C	Expected: 1
-
-	- Glyph name: uni0312	Expected: 1
-
-	- Glyph name: uni0326	Expected: 1
-
-	- Glyph name: uni0327	Expected: 1
-
-	- Glyph name: uni0328	Expected: 1
- [code: no-contour]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni0308	Contours detected: 1	Expected: 2
-
-	- Glyph name: uni0308	Contours detected: 1	Expected: 2
- [code: contour-count]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 280 font units wide, non-breaking space named (uni00A0) is 224 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -833,192 +71,329 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, malayalam, syriac, tifinagh, tai-le, canadian-aboriginal, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, canadian-aboriginal, tai-le, old-permic, math, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2205 EMPTY SET: try adding math
+ * U+221E INFINITY: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
-Or you can add the above codepoints to one of the subsets supported by the font: `latin-ext` [code: unreachable-subsetting]
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
-	- uni030C.alt
- [code: unreachable-glyphs]
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 539 among a set of 7 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 454:
+greater, less, lessequal, greaterequal
+
+Width = 477:
+multiply
+
+Width = 600:
+approxequal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs were present but did not contain any outlines: bracketleft [code: empty-glyphs]
+* ⚠ **WARN** lcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
+* ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* numbersign (U+0023): X=80.0,Y=0.5 (should be at baseline 0?)
-
-	* numbersign (U+0023): X=320.5,Y=699.5 (should be at cap-height 700?)
-
-	* numbersign (U+0023): X=612.5,Y=699.5 (should be at cap-height 700?)
-
-	* numbersign (U+0023): X=372.0,Y=0.5 (should be at baseline 0?)
-
-	* three (U+0033): X=192.0,Y=-2.0 (should be at baseline 0?)
-
-	* C (U+0043): X=439.5,Y=698.0 (should be at cap-height 700?)
-
-	* D (U+0044): X=116.0,Y=-2.0 (should be at baseline 0?)
-
-	* D (U+0044): X=285.0,Y=-2.0 (should be at baseline 0?)
-
-	* K (U+004B): X=427.5,Y=698.0 (should be at cap-height 700?)
-
-	* K (U+004B): X=528.5,Y=698.0 (should be at cap-height 700?)
-
-	* M (U+004D): X=458.0,Y=2.0 (should be at baseline 0?)
-
-	* S (U+0053): X=158.0,Y=-2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=525.0,Y=0.5 (should be at baseline 0?)
-
-	* X (U+0058): X=94.5,Y=-1.5 (should be at baseline 0?)
-
-	* Y (U+0059): X=236.0,Y=-1.0 (should be at baseline 0?)
-
-	* Y (U+0059): X=234.0,Y=698.5 (should be at cap-height 700?)
-
-	* Y (U+0059): X=553.5,Y=698.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=236.0,Y=-1.0 (should be at baseline 0?)
-
-	* f (U+0066): X=462.0,Y=698.0 (should be at cap-height 700?)
-
-	* g (U+0067): X=325.0,Y=-1.0 (should be at baseline 0?)
-
-	* t (U+0074): X=80.0,Y=499.0 (should be at x-height 500?)
-
-	* t (U+0074): X=106.0,Y=499.0 (should be at x-height 500?)
-
-	* t (U+0074): X=238.0,Y=499.0 (should be at x-height 500?)
-
-	* t (U+0074): X=301.0,Y=499.0 (should be at x-height 500?)
-
-	* v (U+0076): X=136.0,Y=498.5 (should be at x-height 500?)
-
-	* v (U+0076): X=465.5,Y=498.0 (should be at x-height 500?)
-
-	* v (U+0076): X=283.5,Y=1.0 (should be at baseline 0?)
-
-	* x (U+0078): X=70.5,Y=-1.5 (should be at baseline 0?)
-
-	* x (U+0078): X=374.0,Y=1.0 (should be at baseline 0?)
-
-	* y (U+0079): X=133.5,Y=498.5 (should be at x-height 500?)
-
-	* y (U+0079): X=461.5,Y=498.5 (should be at x-height 500?)
-
-	* macron (U+00AF): X=64.0,Y=750.5 (should be at ascender 750?)
-
-	* macron (U+00AF): X=348.0,Y=750.5 (should be at ascender 750?)
-
-	* questiondown (U+00BF): X=183.5,Y=1.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* four (U+0034) contains a short segment L<<98.0,180.0>--<95.0,180.0>>
+	* dollar (U+0024) contains a short segment B<<327.0,409.0>-<333.0,407.0>-<341.0,405.0>>
 
-	* four (U+0034) contains a short segment L<<95.0,180.0>--<92.0,180.0>>
+	* four (U+0034) contains a short segment L<<104.0,180.0>--<101.0,180.0>>
 
-	* five (U+0035) contains a short segment B<<199.0,591.0>-<199.0,592.0>-<197.0,575.5>>
+	* four (U+0034) contains a short segment L<<101.0,180.0>--<98.0,180.0>>
 
-	* five (U+0035) contains a short segment B<<181.0,443.5>-<179.0,427.0>-<179.0,427.0>>
+	* five (U+0035) contains a short segment B<<205.0,591.0>-<205.0,592.0>-<203.0,575.5>>
 
-	* K (U+004B) contains a short segment B<<195.0,197.5>-<195.0,196.0>-<195.0,196.0>>
+	* five (U+0035) contains a short segment B<<187.0,443.5>-<185.0,427.0>-<185.0,427.0>>
 
-	* R (U+0052) contains a short segment B<<359.0,291.0>-<353.0,291.0>-<346.0,291.0>>
+	* less (U+003C) contains a short segment L<<53.0,194.0>--<51.0,195.0>>
 
-	* W (U+0057) contains a short segment B<<472.0,621.0>-<470.0,636.0>-<470.0,646.0>>
+	* greater (U+003E) contains a short segment L<<401.0,314.0>--<403.0,313.0>>
 
-	* W (U+0057) contains a short segment B<<542.0,711.0>-<545.0,711.0>-<547.0,711.0>>
+	* W (U+0057) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
 
-	* W (U+0057) contains a short segment B<<547.0,711.0>-<550.0,711.0>-<554.0,711.0>>
+	* X (U+0058) contains a short segment B<<531.0,710.0>-<538.0,710.0>-<547.5,708.5>>
 
-	* W (U+0057) contains a short segment B<<874.0,621.0>-<872.0,636.0>-<872.0,646.0>>
+	* Z (U+005A) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
 
-	* Z (U+005A) contains a short segment B<<60.0,55.0>-<60.0,61.0>-<61.0,67.5>>
+	* Z (U+005A) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
 
-	* Z (U+005A) contains a short segment B<<61.0,67.5>-<62.0,74.0>-<65.0,80.0>>
+	* Z (U+005A) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
 
-	* Z (U+005A) contains a short segment B<<372.5,559.5>-<379.0,561.0>-<369.0,561.0>>
+	* Z (U+005A) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
 
-	* Z (U+005A) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.5,623.5>>
+	* asciicircum (U+005E) contains a short segment L<<167.0,428.0>--<168.0,430.0>>
 
-	* f (U+0066) contains a short segment L<<118.0,500.0>--<118.0,504.0>>
+	* f (U+0066) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
+
+	* v (U+0076) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
+
+	* w (U+0077) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
+
+	* w (U+0077) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
 
 	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
 
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
-	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>> [code: found-short-segments]
+	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
+
+	* yen (U+00A5) contains a short segment L<<229.0,187.0>--<229.0,203.0>>
+
+	* Oslash (U+00D8) contains a short segment L<<256.0,140.0>--<256.0,140.0>>
+
+	* Wcircumflex (U+0174) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
+
+	* wcircumflex (U+0175) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
+
+	* wcircumflex (U+0175) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
+
+	* Zacute (U+0179) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+
+	* Zacute (U+0179) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
+
+	* Zacute (U+0179) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
+
+	* Zacute (U+0179) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
+
+	* zacute (U+017A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+
+	* zacute (U+017A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
+
+	* zacute (U+017A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
+
+	* Zdotaccent (U+017B) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+
+	* Zdotaccent (U+017B) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
+
+	* Zdotaccent (U+017B) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
+
+	* Zdotaccent (U+017B) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
+
+	* zdotaccent (U+017C) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+
+	* zdotaccent (U+017C) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
+
+	* zdotaccent (U+017C) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
+
+	* Zcaron (U+017D) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+
+	* Zcaron (U+017D) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
+
+	* Zcaron (U+017D) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
+
+	* Zcaron (U+017D) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
+
+	* zcaron (U+017E) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+
+	* zcaron (U+017E) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
+
+	* zcaron (U+017E) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
+
+	* florin (U+0192) contains a short segment L<<193.0,379.0>--<179.0,379.0>>
+
+	* florin (U+0192) contains a short segment L<<193.0,500.0>--<193.0,504.0>>
+
+	* Wgrave (U+1E80) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
+
+	* wgrave (U+1E81) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
+
+	* wgrave (U+1E81) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
+
+	* Wacute (U+1E82) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
+
+	* wacute (U+1E83) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
+
+	* wacute (U+1E83) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
+
+	* wdieresis (U+1E85) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
+
+	* wdieresis (U+1E85) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
+
+	* notequal (U+2260) contains a short segment L<<454.0,438.0>--<461.0,438.0>>
+
+	* lessequal (U+2264) contains a short segment L<<53.0,300.0>--<51.0,301.0>>
+
+	* greaterequal (U+2265) contains a short segment L<<401.0,420.0>--<403.0,419.0>>
+
+	* fi (U+FB01) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
+
+	* fi (U+FB01) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
+
+	* fl (U+FB02) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
+
+	* fl (U+FB02) contains a short segment L<<98.0,500.0>--<98.0,504.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* four (U+0034): L<<324.0,180.0>--<98.0,180.0>> -> L<<98.0,180.0>--<95.0,180.0>>
+	* asciicircum (U+005E): L<<19.0,132.0>--<167.0,428.0>> -> L<<167.0,428.0>--<168.0,430.0>>
 
-	* four (U+0034): L<<98.0,180.0>--<95.0,180.0>> -> L<<95.0,180.0>--<92.0,180.0>>
+	* asciicircum (U+005E): L<<286.0,430.0>--<287.0,428.0>> -> L<<287.0,428.0>--<435.0,132.0>>
 
-	* two (U+0032): L<<210.0,150.0>--<210.0,148.0>> -> L<<210.0,148.0>--<209.0,109.0>> [code: found-colinear-vectors]
+	* four (U+0034): L<<104.0,180.0>--<101.0,180.0>> -> L<<101.0,180.0>--<98.0,180.0>>
+
+	* four (U+0034): L<<330.0,180.0>--<104.0,180.0>> -> L<<104.0,180.0>--<101.0,180.0>>
+
+	* greater (U+003E): L<<105.0,462.0>--<401.0,314.0>> -> L<<401.0,314.0>--<403.0,313.0>>
+
+	* greater (U+003E): L<<403.0,195.0>--<401.0,194.0>> -> L<<401.0,194.0>--<105.0,46.0>>
+
+	* greaterequal (U+2265): L<<105.0,568.0>--<401.0,420.0>> -> L<<401.0,420.0>--<403.0,419.0>>
+
+	* greaterequal (U+2265): L<<403.0,301.0>--<401.0,300.0>> -> L<<401.0,300.0>--<105.0,152.0>>
+
+	* less (U+003C): L<<349.0,46.0>--<53.0,194.0>> -> L<<53.0,194.0>--<51.0,195.0>>
+
+	* less (U+003C): L<<51.0,313.0>--<53.0,314.0>> -> L<<53.0,314.0>--<349.0,462.0>>
+
+	* lessequal (U+2264): L<<349.0,152.0>--<53.0,300.0>> -> L<<53.0,300.0>--<51.0,301.0>>
+
+	* lessequal (U+2264): L<<51.0,419.0>--<53.0,420.0>> -> L<<53.0,420.0>--<349.0,568.0>>
+
+	* notequal (U+2260): L<<217.0,84.0>--<206.0,68.0>> -> L<<206.0,68.0>--<166.0,9.0>>
+
+	* oslash (U+00F8): L<<169.0,190.0>--<171.0,193.0>> -> L<<171.0,193.0>--<312.0,401.0>>
+
+	* two (U+0032): L<<210.0,150.0>--<210.0,148.0>> -> L<<210.0,148.0>--<209.0,119.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Z (U+005A): B<<252.5,148.5>-<238.0,140.0>-<234.0,139.0>>/L<<234.0,139.0>--<501.0,139.0>> = 14.036243467926484
-
-	* b (U+0062): B<<187.5,490.5>-<184.0,472.0>-<177.0,451.0>>/B<<177.0,451.0>-<196.0,482.0>-<229.5,497.0>> = 13.069317896282163
+	* b (U+0062): B<<198.5,490.5>-<195.0,472.0>-<188.0,451.0>>/B<<188.0,451.0>-<207.0,482.0>-<240.5,497.0>> = 13.069317896282163
 
 	* d (U+0064): B<<325.0,497.0>-<358.0,482.0>-<377.0,451.0>>/B<<377.0,451.0>-<370.0,472.0>-<366.5,490.5>> = 13.069317896282163
 
+	* dcaron (U+010F): B<<325.0,497.0>-<358.0,482.0>-<377.0,451.0>>/B<<377.0,451.0>-<370.0,472.0>-<366.5,490.5>> = 13.069317896282163
+
+	* dcroat (U+0111): B<<325.0,497.0>-<358.0,482.0>-<377.0,451.0>>/B<<377.0,451.0>-<370.0,472.0>-<366.5,490.5>> = 13.069317896282163
+
 	* h (U+0068): B<<199.0,523.0>-<193.0,497.0>-<179.0,469.0>>/B<<179.0,469.0>-<214.0,511.0>-<289.0,511.0>> = 13.240519915187155
+
+	* hbar (U+0127): B<<199.0,523.0>-<193.0,497.0>-<179.0,469.0>>/B<<179.0,469.0>-<214.0,511.0>-<289.0,511.0>> = 13.240519915187155
+
+	* infinity (U+221E): L<<395.0,377.0>--<391.0,371.0>>/B<<391.0,371.0>-<458.0,451.0>-<534.5,468.5>> = 6.256106423955828
 
 	* p (U+0070): B<<237.5,7.0>-<204.0,22.0>-<185.0,53.0>>/B<<185.0,53.0>-<192.0,33.0>-<195.5,14.0>> = 12.21422050001543
 
 	* q (U+0071): B<<366.5,14.0>-<370.0,33.0>-<377.0,53.0>>/B<<377.0,53.0>-<358.0,22.0>-<325.0,7.0>> = 12.21422050001543
 
-	* z (U+007A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227 [code: found-jaggy-segments]
+	* thorn (U+00FE): B<<240.5,7.0>-<207.0,22.0>-<188.0,53.0>>/B<<188.0,53.0>-<195.0,33.0>-<198.5,14.0>> = 12.21422050001543
+
+	* z (U+007A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227
+
+	* zacute (U+017A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227
+
+	* zcaron (U+017E): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227
+
+	* zdotaccent (U+017C): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* T (U+0054): L<<202.0,41.0>--<201.0,509.0>> [code: found-semi-vertical]
+	* T (U+0054): L<<202.0,41.0>--<201.0,509.0>>
+
+	* Tcaron (U+0164): L<<202.0,41.0>--<201.0,509.0>>
+
+	* uni021A (U+021A): L<<202.0,41.0>--<201.0,509.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1026,19 +401,21 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters _should_ disappear in other cases, for example: ì í î ĩ ī ĭ i̇ ï ǐ i̒ ì̦ í̦ î̦ ĩ̦ ī̦ ĭ̦ i̦̇ ï̦ i̦̊ i̦̋
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]
+Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 11 | 14 | 126 | 7 | 93 | 0 |
-| 0% | 4% | 6% | 50% | 3% | 37% | 0% |
+| 0 | 11 | 14 | 123 | 7 | 97 | 0 |
+| 0% | 4% | 6% | 49% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
