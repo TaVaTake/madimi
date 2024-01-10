@@ -128,15 +128,15 @@ ul {
             </tr>
             <tr>
                 <td>0</td>
-                <td>11</td>
+                <td>10</td>
                 <td>14</td>
                 <td>123</td>
                 <td>7</td>
-                <td>97</td>
+                <td>98</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>6%</td>
+                <td>5%</td>
                 <td>7%</td>
                 <td>62%</td>
                 <td>4%</td>
@@ -182,17 +182,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, canadian-aboriginal, tai-le, old-permic, math, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, old-permic, malayalam, canadian-aboriginal, coptic, math, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -243,7 +243,7 @@ definitions.</p>
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
-<span class='section__emoji'>🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
 
@@ -259,11 +259,6 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/fontbakery_version</div>
 
 <details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
-</span></li></ul></div></details>
-<h3>Font contains '.notdef' as its first glyph?</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/mandatory_glyphs</div>
-
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The '.notdef' glyph should contain a drawing, but it is blank. [code: notdef-is-blank]</p>
 </span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/contour_count</div>
@@ -323,7 +318,7 @@ definitions.</p>
 <h3>Space and non-breaking space have the same width?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/whitespace_widths</div>
 
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 280 font units wide, non-breaking space named (uni00A0) is 224 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 220 font units wide, non-breaking space named (uni00A0) is 224 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
 </span></li></ul></div></details>
 <h3>Check math signs have the same width.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/math_signs_width</div>
@@ -331,7 +326,7 @@ definitions.</p>
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 539 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 454:
-greater, less, lessequal, greaterequal</p>
+greaterequal, greater, less, lessequal</p>
 <p>Width = 477:
 multiply</p>
 <p>Width = 600:
@@ -377,9 +372,7 @@ approxequal
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_short_segments</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* dollar (U+0024) contains a short segment B&lt;&lt;327.0,409.0&gt;-&lt;333.0,407.0&gt;-&lt;341.0,405.0&gt;&gt;
-
-* four (U+0034) contains a short segment L&lt;&lt;104.0,180.0&gt;--&lt;101.0,180.0&gt;&gt;
+<pre><code>* four (U+0034) contains a short segment L&lt;&lt;104.0,180.0&gt;--&lt;101.0,180.0&gt;&gt;
 
 * four (U+0034) contains a short segment L&lt;&lt;101.0,180.0&gt;--&lt;98.0,180.0&gt;&gt;
 
@@ -390,10 +383,6 @@ approxequal
 * less (U+003C) contains a short segment L&lt;&lt;53.0,194.0&gt;--&lt;51.0,195.0&gt;&gt;
 
 * greater (U+003E) contains a short segment L&lt;&lt;401.0,314.0&gt;--&lt;403.0,313.0&gt;&gt;
-
-* W (U+0057) contains a short segment B&lt;&lt;428.5,544.5&gt;-&lt;427.0,559.0&gt;-&lt;424.0,573.0&gt;&gt;
-
-* X (U+0058) contains a short segment B&lt;&lt;531.0,710.0&gt;-&lt;538.0,710.0&gt;-&lt;547.5,708.5&gt;&gt;
 
 * Z (U+005A) contains a short segment B&lt;&lt;60.0,49.0&gt;-&lt;60.0,56.0&gt;-&lt;61.5,62.5&gt;&gt;
 
@@ -407,27 +396,13 @@ approxequal
 
 * f (U+0066) contains a short segment L&lt;&lt;98.0,500.0&gt;--&lt;98.0,504.0&gt;&gt;
 
-* v (U+0076) contains a short segment B&lt;&lt;19.0,419.0&gt;-&lt;18.0,423.0&gt;-&lt;17.0,426.0&gt;&gt;
-
-* w (U+0077) contains a short segment B&lt;&lt;24.5,400.0&gt;-&lt;20.0,415.0&gt;-&lt;19.0,419.0&gt;&gt;
-
-* w (U+0077) contains a short segment B&lt;&lt;19.0,419.0&gt;-&lt;18.0,423.0&gt;-&lt;17.0,426.0&gt;&gt;
-
 * z (U+007A) contains a short segment B&lt;&lt;34.0,43.0&gt;-&lt;34.0,48.0&gt;-&lt;36.0,56.0&gt;&gt;
 
 * z (U+007A) contains a short segment B&lt;&lt;238.0,374.0&gt;-&lt;247.0,378.0&gt;-&lt;245.0,378.0&gt;&gt;
 
 * z (U+007A) contains a short segment B&lt;&lt;204.0,122.5&gt;-&lt;199.0,122.0&gt;-&lt;206.0,122.0&gt;&gt;
 
-* yen (U+00A5) contains a short segment L&lt;&lt;229.0,187.0&gt;--&lt;229.0,203.0&gt;&gt;
-
 * Oslash (U+00D8) contains a short segment L&lt;&lt;256.0,140.0&gt;--&lt;256.0,140.0&gt;&gt;
-
-* Wcircumflex (U+0174) contains a short segment B&lt;&lt;428.5,544.5&gt;-&lt;427.0,559.0&gt;-&lt;424.0,573.0&gt;&gt;
-
-* wcircumflex (U+0175) contains a short segment B&lt;&lt;24.5,400.0&gt;-&lt;20.0,415.0&gt;-&lt;19.0,419.0&gt;&gt;
-
-* wcircumflex (U+0175) contains a short segment B&lt;&lt;19.0,419.0&gt;-&lt;18.0,423.0&gt;-&lt;17.0,426.0&gt;&gt;
 
 * Zacute (U+0179) contains a short segment B&lt;&lt;60.0,49.0&gt;-&lt;60.0,56.0&gt;-&lt;61.5,62.5&gt;&gt;
 
@@ -474,24 +449,6 @@ approxequal
 * florin (U+0192) contains a short segment L&lt;&lt;193.0,379.0&gt;--&lt;179.0,379.0&gt;&gt;
 
 * florin (U+0192) contains a short segment L&lt;&lt;193.0,500.0&gt;--&lt;193.0,504.0&gt;&gt;
-
-* Wgrave (U+1E80) contains a short segment B&lt;&lt;428.5,544.5&gt;-&lt;427.0,559.0&gt;-&lt;424.0,573.0&gt;&gt;
-
-* wgrave (U+1E81) contains a short segment B&lt;&lt;24.5,400.0&gt;-&lt;20.0,415.0&gt;-&lt;19.0,419.0&gt;&gt;
-
-* wgrave (U+1E81) contains a short segment B&lt;&lt;19.0,419.0&gt;-&lt;18.0,423.0&gt;-&lt;17.0,426.0&gt;&gt;
-
-* Wacute (U+1E82) contains a short segment B&lt;&lt;428.5,544.5&gt;-&lt;427.0,559.0&gt;-&lt;424.0,573.0&gt;&gt;
-
-* wacute (U+1E83) contains a short segment B&lt;&lt;24.5,400.0&gt;-&lt;20.0,415.0&gt;-&lt;19.0,419.0&gt;&gt;
-
-* wacute (U+1E83) contains a short segment B&lt;&lt;19.0,419.0&gt;-&lt;18.0,423.0&gt;-&lt;17.0,426.0&gt;&gt;
-
-* Wdieresis (U+1E84) contains a short segment B&lt;&lt;428.5,544.5&gt;-&lt;427.0,559.0&gt;-&lt;424.0,573.0&gt;&gt;
-
-* wdieresis (U+1E85) contains a short segment B&lt;&lt;24.5,400.0&gt;-&lt;20.0,415.0&gt;-&lt;19.0,419.0&gt;&gt;
-
-* wdieresis (U+1E85) contains a short segment B&lt;&lt;19.0,419.0&gt;-&lt;18.0,423.0&gt;-&lt;17.0,426.0&gt;&gt;
 
 * notequal (U+2260) contains a short segment L&lt;&lt;454.0,438.0&gt;--&lt;461.0,438.0&gt;&gt;
 
@@ -599,8 +556,8 @@ approxequal
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>

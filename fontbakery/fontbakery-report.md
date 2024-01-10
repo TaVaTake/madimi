@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[25] Madimi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[24] Madimi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -40,14 +40,10 @@ fontbakery version: 0.10.1
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.8 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** The '.notdef' glyph should contain a drawing, but it is blank. [code: notdef-is-blank]
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 280 font units wide, non-breaking space named (uni00A0) is 224 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 220 font units wide, non-breaking space named (uni00A0) is 224 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -71,17 +67,17 @@ fontbakery version: 0.10.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, canadian-aboriginal, tai-le, old-permic, math, syriac
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, old-permic, malayalam, canadian-aboriginal, coptic, math, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -163,7 +159,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 454:
-greater, less, lessequal, greaterequal
+greaterequal, greater, less, lessequal
 
 Width = 477:
 multiply
@@ -189,8 +185,6 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<327.0,409.0>-<333.0,407.0>-<341.0,405.0>>
-
 	* four (U+0034) contains a short segment L<<104.0,180.0>--<101.0,180.0>>
 
 	* four (U+0034) contains a short segment L<<101.0,180.0>--<98.0,180.0>>
@@ -202,10 +196,6 @@ approxequal
 	* less (U+003C) contains a short segment L<<53.0,194.0>--<51.0,195.0>>
 
 	* greater (U+003E) contains a short segment L<<401.0,314.0>--<403.0,313.0>>
-
-	* W (U+0057) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
-
-	* X (U+0058) contains a short segment B<<531.0,710.0>-<538.0,710.0>-<547.5,708.5>>
 
 	* Z (U+005A) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
 
@@ -219,27 +209,13 @@ approxequal
 
 	* f (U+0066) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
 
-	* v (U+0076) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
-
-	* w (U+0077) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
-
-	* w (U+0077) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
-
 	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
 
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
 	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
 
-	* yen (U+00A5) contains a short segment L<<229.0,187.0>--<229.0,203.0>>
-
 	* Oslash (U+00D8) contains a short segment L<<256.0,140.0>--<256.0,140.0>>
-
-	* Wcircumflex (U+0174) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
-
-	* wcircumflex (U+0175) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
-
-	* wcircumflex (U+0175) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
 
 	* Zacute (U+0179) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
 
@@ -286,24 +262,6 @@ approxequal
 	* florin (U+0192) contains a short segment L<<193.0,379.0>--<179.0,379.0>>
 
 	* florin (U+0192) contains a short segment L<<193.0,500.0>--<193.0,504.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
-
-	* wgrave (U+1E81) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
-
-	* wgrave (U+1E81) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
-
-	* Wacute (U+1E82) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
-
-	* wacute (U+1E83) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
-
-	* wacute (U+1E83) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
-
-	* Wdieresis (U+1E84) contains a short segment B<<428.5,544.5>-<427.0,559.0>-<424.0,573.0>>
-
-	* wdieresis (U+1E85) contains a short segment B<<24.5,400.0>-<20.0,415.0>-<19.0,419.0>>
-
-	* wdieresis (U+1E85) contains a short segment B<<19.0,419.0>-<18.0,423.0>-<17.0,426.0>>
 
 	* notequal (U+2260) contains a short segment L<<454.0,438.0>--<461.0,438.0>>
 
@@ -405,17 +363,17 @@ approxequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 14 | 123 | 7 | 97 | 0 |
-| 0% | 4% | 6% | 49% | 3% | 38% | 0% |
+| 0 | 10 | 14 | 123 | 7 | 98 | 0 |
+| 0% | 4% | 6% | 49% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
