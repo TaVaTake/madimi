@@ -127,16 +127,16 @@ ul {
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>10</td>
+                <td>0</td>
+                <td>11</td>
                 <td>14</td>
                 <td>123</td>
                 <td>7</td>
                 <td>97</td>
             </tr>
             <tr>
-                <td>1%</td>
-                <td>5%</td>
+                <td>0%</td>
+                <td>6%</td>
                 <td>7%</td>
                 <td>62%</td>
                 <td>4%</td>
@@ -166,7 +166,7 @@ ul {
     <p>FontBakery version: 0.10.1</p>
     
 <h2>Section: Google Fonts</h2>
-<span class='section__emoji'>💥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Checking OS/2 achVendID.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vendor_id</div>
 
@@ -182,14 +182,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tifinagh, tai-le, malayalam, math, syriac, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, malayalam, old-permic, syriac, canadian-aboriginal, tai-le, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
@@ -227,21 +227,6 @@ definitions.</p>
 | Typographic Family Name | <strong>Madimi</strong> | <strong>N/A</strong> |
 | Typographic Subfamily Name | <strong>Bold</strong> | <strong>N/A</strong> | [code: bad-names]</p>
 </span></li></ul></div></details>
-<h3>Familyname must be unique according to namecheck.fontdata.com</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/fontdata_namecheck</div>
-
-<details><summary>💥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed to access: http://namecheck.fontdata.com.
-This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.</p>
-<pre><code>	You can exclude this check with the command line option:
-	-x com.google.fonts/check/fontdata_namecheck
-
-	Or you can wait until the service is available again.
-	If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
-
-	Original error message:
-	&lt;class 'requests.exceptions.ConnectionError'&gt; [code: namecheck-service]
-</code></pre>
-</span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vertical_metrics</div>
 
@@ -258,7 +243,7 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
-<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
 
@@ -274,6 +259,11 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 <div class='check__idlabel'>Check ID: com.google.fonts/check/fontbakery_version</div>
 
 <details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+</span></li></ul></div></details>
+<h3>Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents)</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/legacy_accents</div>
+
+<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Legacy accent &quot;tilde&quot; are too narrow. [code: legacy-accents-width]</p>
 </span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/contour_count</div>
@@ -300,13 +290,9 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -319,8 +305,6 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 - Glyph name: fi	Contours detected: 2	Expected: 3
-
-- Glyph name: fl	Contours detected: 1	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
 
@@ -341,10 +325,10 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 539 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 454:
-greaterequal, less, lessequal, greater</p>
+greater, greaterequal, less, lessequal</p>
 <p>Width = 477:
 multiply</p>
-<p>Width = 600:
+<p>Width = 595:
 approxequal
 [code: width-outliers]</p>
 </span></li></ul></div></details>
@@ -387,7 +371,19 @@ approxequal
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_short_segments</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* four (U+0034) contains a short segment L&lt;&lt;104.0,180.0&gt;--&lt;101.0,180.0&gt;&gt;
+<pre><code>* ampersand (U+0026) contains a short segment B&lt;&lt;588.0,304.0&gt;-&lt;588.0,300.0&gt;-&lt;587.5,295.5&gt;&gt;
+
+* ampersand (U+0026) contains a short segment B&lt;&lt;587.5,295.5&gt;-&lt;587.0,291.0&gt;-&lt;586.0,287.0&gt;&gt;
+
+* slash (U+002F) contains a short segment B&lt;&lt;53.0,-19.0&gt;-&lt;53.0,-14.0&gt;-&lt;53.5,-9.5&gt;&gt;
+
+* slash (U+002F) contains a short segment B&lt;&lt;53.5,-9.5&gt;-&lt;54.0,-5.0&gt;-&lt;55.0,-1.0&gt;&gt;
+
+* slash (U+002F) contains a short segment B&lt;&lt;375.0,726.0&gt;-&lt;375.0,722.0&gt;-&lt;375.0,716.5&gt;&gt;
+
+* slash (U+002F) contains a short segment B&lt;&lt;375.0,716.5&gt;-&lt;375.0,711.0&gt;-&lt;373.0,706.0&gt;&gt;
+
+* four (U+0034) contains a short segment L&lt;&lt;104.0,180.0&gt;--&lt;101.0,180.0&gt;&gt;
 
 * four (U+0034) contains a short segment L&lt;&lt;101.0,180.0&gt;--&lt;98.0,180.0&gt;&gt;
 
@@ -399,6 +395,8 @@ approxequal
 
 * greater (U+003E) contains a short segment L&lt;&lt;401.0,314.0&gt;--&lt;403.0,313.0&gt;&gt;
 
+* at (U+0040) contains a short segment B&lt;&lt;597.5,-90.0&gt;-&lt;610.0,-104.0&gt;-&lt;610.0,-118.0&gt;&gt;
+
 * Z (U+005A) contains a short segment B&lt;&lt;60.0,49.0&gt;-&lt;60.0,56.0&gt;-&lt;61.5,62.5&gt;&gt;
 
 * Z (U+005A) contains a short segment B&lt;&lt;368.5,565.5&gt;-&lt;375.0,568.0&gt;-&lt;366.0,568.0&gt;&gt;
@@ -406,6 +404,14 @@ approxequal
 * Z (U+005A) contains a short segment B&lt;&lt;543.0,640.0&gt;-&lt;543.0,632.0&gt;-&lt;540.0,622.5&gt;&gt;
 
 * Z (U+005A) contains a short segment B&lt;&lt;235.5,144.5&gt;-&lt;226.0,139.0&gt;-&lt;233.0,139.0&gt;&gt;
+
+* backslash (U+005C) contains a short segment B&lt;&lt;373.0,-1.0&gt;-&lt;375.0,-5.0&gt;-&lt;375.0,-9.5&gt;&gt;
+
+* backslash (U+005C) contains a short segment B&lt;&lt;375.0,-9.5&gt;-&lt;375.0,-14.0&gt;-&lt;375.0,-19.0&gt;&gt;
+
+* backslash (U+005C) contains a short segment B&lt;&lt;55.0,706.0&gt;-&lt;54.0,711.0&gt;-&lt;53.5,716.5&gt;&gt;
+
+* backslash (U+005C) contains a short segment B&lt;&lt;53.5,716.5&gt;-&lt;53.0,722.0&gt;-&lt;53.0,726.0&gt;&gt;
 
 * asciicircum (U+005E) contains a short segment L&lt;&lt;167.0,428.0&gt;--&lt;168.0,430.0&gt;&gt;
 
@@ -463,6 +469,12 @@ approxequal
 
 * florin (U+0192) contains a short segment L&lt;&lt;193.0,500.0&gt;--&lt;193.0,504.0&gt;&gt;
 
+* Euro (U+20AC) contains a short segment B&lt;&lt;48.0,365.0&gt;-&lt;48.0,374.0&gt;-&lt;48.0,382.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment L&lt;&lt;198.0,382.0&gt;--&lt;198.0,378.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment B&lt;&lt;431.0,220.0&gt;-&lt;429.0,218.0&gt;-&lt;427.0,216.0&gt;&gt;
+
 * notequal (U+2260) contains a short segment L&lt;&lt;454.0,438.0&gt;--&lt;461.0,438.0&gt;&gt;
 
 * lessequal (U+2264) contains a short segment L&lt;&lt;53.0,300.0&gt;--&lt;51.0,301.0&gt;&gt;
@@ -472,8 +484,6 @@ approxequal
 * fi (U+FB01) contains a short segment L&lt;&lt;98.0,379.0&gt;--&lt;84.0,379.0&gt;&gt;
 
 * fi (U+FB01) contains a short segment L&lt;&lt;98.0,500.0&gt;--&lt;98.0,504.0&gt;&gt;
-
-* fl (U+FB02) contains a short segment L&lt;&lt;98.0,379.0&gt;--&lt;84.0,379.0&gt;&gt;
 
 * fl (U+FB02) contains a short segment L&lt;&lt;98.0,500.0&gt;--&lt;98.0,504.0&gt;&gt; [code: found-short-segments]
 </code></pre>
@@ -517,19 +527,17 @@ approxequal
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_jaggy_segments</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* b (U+0062): B&lt;&lt;198.5,490.5&gt;-&lt;195.0,472.0&gt;-&lt;188.0,451.0&gt;&gt;/B&lt;&lt;188.0,451.0&gt;-&lt;207.0,482.0&gt;-&lt;240.5,497.0&gt;&gt; = 13.069317896282163
+<pre><code>* b (U+0062): B&lt;&lt;198.5,490.5&gt;-&lt;195.0,472.0&gt;-&lt;188.0,451.0&gt;&gt;/B&lt;&lt;188.0,451.0&gt;-&lt;207.0,482.0&gt;-&lt;240.5,495.0&gt;&gt; = 13.069317896282163
 
-* d (U+0064): B&lt;&lt;325.0,497.0&gt;-&lt;358.0,482.0&gt;-&lt;377.0,451.0&gt;&gt;/B&lt;&lt;377.0,451.0&gt;-&lt;370.0,472.0&gt;-&lt;366.5,490.5&gt;&gt; = 13.069317896282163
+* d (U+0064): B&lt;&lt;325.0,495.0&gt;-&lt;358.0,482.0&gt;-&lt;377.0,451.0&gt;&gt;/B&lt;&lt;377.0,451.0&gt;-&lt;370.0,472.0&gt;-&lt;366.5,490.5&gt;&gt; = 13.069317896282163
 
-* dcaron (U+010F): B&lt;&lt;325.0,497.0&gt;-&lt;358.0,482.0&gt;-&lt;377.0,451.0&gt;&gt;/B&lt;&lt;377.0,451.0&gt;-&lt;370.0,472.0&gt;-&lt;366.5,490.5&gt;&gt; = 13.069317896282163
+* dcaron (U+010F): B&lt;&lt;325.0,495.0&gt;-&lt;358.0,482.0&gt;-&lt;377.0,451.0&gt;&gt;/B&lt;&lt;377.0,451.0&gt;-&lt;370.0,472.0&gt;-&lt;366.5,490.5&gt;&gt; = 13.069317896282163
 
-* dcroat (U+0111): B&lt;&lt;325.0,497.0&gt;-&lt;358.0,482.0&gt;-&lt;377.0,451.0&gt;&gt;/B&lt;&lt;377.0,451.0&gt;-&lt;370.0,472.0&gt;-&lt;366.5,490.5&gt;&gt; = 13.069317896282163
+* dcroat (U+0111): B&lt;&lt;325.0,495.0&gt;-&lt;358.0,482.0&gt;-&lt;377.0,451.0&gt;&gt;/B&lt;&lt;377.0,451.0&gt;-&lt;370.0,472.0&gt;-&lt;366.5,490.5&gt;&gt; = 13.069317896282163
 
-* h (U+0068): B&lt;&lt;199.0,523.0&gt;-&lt;193.0,497.0&gt;-&lt;179.0,469.0&gt;&gt;/B&lt;&lt;179.0,469.0&gt;-&lt;214.0,511.0&gt;-&lt;289.0,511.0&gt;&gt; = 13.240519915187155
+* h (U+0068): B&lt;&lt;199.0,523.0&gt;-&lt;193.0,497.0&gt;-&lt;179.0,469.0&gt;&gt;/B&lt;&lt;179.0,469.0&gt;-&lt;196.0,490.0&gt;-&lt;224.0,499.0&gt;&gt; = 12.425942865427455
 
-* hbar (U+0127): B&lt;&lt;199.0,523.0&gt;-&lt;193.0,497.0&gt;-&lt;179.0,469.0&gt;&gt;/B&lt;&lt;179.0,469.0&gt;-&lt;214.0,511.0&gt;-&lt;289.0,511.0&gt;&gt; = 13.240519915187155
-
-* infinity (U+221E): L&lt;&lt;395.0,377.0&gt;--&lt;391.0,371.0&gt;&gt;/B&lt;&lt;391.0,371.0&gt;-&lt;458.0,451.0&gt;-&lt;534.5,468.5&gt;&gt; = 6.256106423955828
+* hbar (U+0127): B&lt;&lt;199.0,523.0&gt;-&lt;193.0,497.0&gt;-&lt;179.0,469.0&gt;&gt;/B&lt;&lt;179.0,469.0&gt;-&lt;196.0,490.0&gt;-&lt;224.0,499.0&gt;&gt; = 12.425942865427455
 
 * p (U+0070): B&lt;&lt;237.5,7.0&gt;-&lt;204.0,22.0&gt;-&lt;185.0,53.0&gt;&gt;/B&lt;&lt;185.0,53.0&gt;-&lt;192.0,33.0&gt;-&lt;195.5,14.0&gt;&gt; = 12.21422050001543
 
@@ -569,8 +577,8 @@ approxequal
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
