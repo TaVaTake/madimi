@@ -1,12 +1,6 @@
 {
 .appVersion = "3234";
 .formatVersion = 3;
-axes = (
-{
-name = Weight;
-tag = wght;
-}
-);
 customParameters = (
 {
 name = vendorID;
@@ -173,9 +167,6 @@ tag = liga;
 );
 fontMaster = (
 {
-axesValues = (
-92
-);
 iconName = Bold;
 id = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
 metricValues = (
@@ -20925,9 +20916,6 @@ width = 494;
 );
 instances = (
 {
-axesValues = (
-92
-);
 instanceInterpolations = {
 "2F065738-4B59-43EB-A5F2-FD5F277958EA" = 1;
 };
@@ -20957,13 +20945,48 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The Madimi Project Authors (https://github.com/TaVaTake/madimi)";
+}
+);
+},
+{
 key = designers;
 values = (
 {
 language = ENG;
-value = TavaTake;
+value = "Taurai Valerie Mtake, Mirko Velimirovic";
 }
 );
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = TaVaTake;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://tavatake.africa";
 },
 {
 key = postscriptFontName;
