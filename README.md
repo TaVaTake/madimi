@@ -16,8 +16,8 @@ Description of your font goes here. We recommend to start with a very short pres
 
 Don't hesitate to create images!
 
-![Sample Image](documentation/image1.png))
-![Sample Image](documentation/image2.png))
+![Sample Image](documentation/image1.png)
+![Sample Image](documentation/image2.png)
 
 ## About
 
