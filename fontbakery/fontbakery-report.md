@@ -67,17 +67,17 @@ fontbakery version: 0.10.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, syriac, tai-le, math, tifinagh, malayalam, canadian-aboriginal
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, malayalam, tai-le, math, canadian-aboriginal, old-permic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -120,15 +120,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -143,8 +137,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
@@ -153,7 +145,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 454:
-lessequal, greater, greaterequal, less
+lessequal, less, greater, greaterequal
 
 Width = 477:
 multiply
@@ -179,6 +171,8 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* percent (U+0025) contains a short segment B<<509.0,663.0>-<513.0,669.0>-<515.0,671.0>>
+
 	* ampersand (U+0026) contains a short segment B<<588.0,304.0>-<588.0,300.0>-<587.5,295.5>>
 
 	* ampersand (U+0026) contains a short segment B<<587.5,295.5>-<587.0,291.0>-<586.0,287.0>>
@@ -203,7 +197,7 @@ approxequal
 
 	* greater (U+003E) contains a short segment L<<401.0,314.0>--<403.0,313.0>>
 
-	* at (U+0040) contains a short segment B<<597.5,-90.0>-<610.0,-104.0>-<610.0,-118.0>>
+	* at (U+0040) contains a short segment B<<607.5,-90.0>-<620.0,-104.0>-<620.0,-118.0>>
 
 	* Z (U+005A) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
 
@@ -230,6 +224,12 @@ approxequal
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
 	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
+
+	* Uogonek (U+0172) contains a short segment B<<481.0,17.5>-<468.0,4.0>-<466.0,2.0>>
+
+	* uogonek (U+0173) contains a short segment B<<406.0,23.0>-<402.0,20.0>-<397.0,17.0>>
+
+	* uogonek (U+0173) contains a short segment B<<397.0,17.0>-<392.0,14.0>-<387.0,10.0>>
 
 	* Zacute (U+0179) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
 
@@ -277,11 +277,29 @@ approxequal
 
 	* florin (U+0192) contains a short segment L<<193.0,500.0>--<193.0,504.0>>
 
+	* uni1E9E (U+1E9E) contains a short segment B<<228.0,568.0>-<217.0,568.0>-<210.5,559.5>>
+
+	* uni1E9E (U+1E9E) contains a short segment B<<210.5,559.5>-<204.0,551.0>-<204.0,538.0>>
+
 	* Euro (U+20AC) contains a short segment B<<48.0,365.0>-<48.0,374.0>-<48.0,382.0>>
 
 	* Euro (U+20AC) contains a short segment L<<198.0,382.0>--<198.0,378.0>>
 
-	* infinity (U+221E) contains a short segment B<<431.0,220.0>-<429.0,218.0>-<427.0,216.0>>
+	* emptyset (U+2205) contains a short segment L<<398.0,604.0>--<392.0,604.0>>
+
+	* infinity (U+221E) contains a short segment L<<421.0,196.0>--<420.0,197.0>>
+
+	* infinity (U+221E) contains a short segment L<<420.0,197.0>--<420.0,194.0>>
+
+	* infinity (U+221E) contains a short segment L<<420.0,194.0>--<414.0,201.0>>
+
+	* infinity (U+221E) contains a short segment L<<414.0,201.0>--<407.0,194.0>>
+
+	* infinity (U+221E) contains a short segment L<<407.0,194.0>--<407.0,197.0>>
+
+	* infinity (U+221E) contains a short segment L<<407.0,197.0>--<406.0,196.0>>
+
+	* infinity (U+221E) contains a short segment L<<406.0,196.0>--<406.0,193.0>>
 
 	* notequal (U+2260) contains a short segment L<<454.0,438.0>--<461.0,438.0>>
 
@@ -379,9 +397,9 @@ approxequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary

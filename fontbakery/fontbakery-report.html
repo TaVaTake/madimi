@@ -182,17 +182,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, syriac, tai-le, math, tifinagh, malayalam, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, malayalam, tai-le, math, canadian-aboriginal, old-permic, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -281,15 +281,9 @@ definitions.</p>
 
 - Glyph name: oe	Contours detected: 4	Expected: 3
 
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -304,8 +298,6 @@ definitions.</p>
 - Glyph name: hbar	Contours detected: 2	Expected: 1
 
 - Glyph name: oe	Contours detected: 4	Expected: 3
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
@@ -320,7 +312,7 @@ definitions.</p>
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 539 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 454:
-lessequal, greater, greaterequal, less</p>
+lessequal, less, greater, greaterequal</p>
 <p>Width = 477:
 multiply</p>
 <p>Width = 595:
@@ -366,7 +358,9 @@ approxequal
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_short_segments</div>
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* ampersand (U+0026) contains a short segment B&lt;&lt;588.0,304.0&gt;-&lt;588.0,300.0&gt;-&lt;587.5,295.5&gt;&gt;
+<pre><code>* percent (U+0025) contains a short segment B&lt;&lt;509.0,663.0&gt;-&lt;513.0,669.0&gt;-&lt;515.0,671.0&gt;&gt;
+
+* ampersand (U+0026) contains a short segment B&lt;&lt;588.0,304.0&gt;-&lt;588.0,300.0&gt;-&lt;587.5,295.5&gt;&gt;
 
 * ampersand (U+0026) contains a short segment B&lt;&lt;587.5,295.5&gt;-&lt;587.0,291.0&gt;-&lt;586.0,287.0&gt;&gt;
 
@@ -390,7 +384,7 @@ approxequal
 
 * greater (U+003E) contains a short segment L&lt;&lt;401.0,314.0&gt;--&lt;403.0,313.0&gt;&gt;
 
-* at (U+0040) contains a short segment B&lt;&lt;597.5,-90.0&gt;-&lt;610.0,-104.0&gt;-&lt;610.0,-118.0&gt;&gt;
+* at (U+0040) contains a short segment B&lt;&lt;607.5,-90.0&gt;-&lt;620.0,-104.0&gt;-&lt;620.0,-118.0&gt;&gt;
 
 * Z (U+005A) contains a short segment B&lt;&lt;60.0,49.0&gt;-&lt;60.0,56.0&gt;-&lt;61.5,62.5&gt;&gt;
 
@@ -417,6 +411,12 @@ approxequal
 * z (U+007A) contains a short segment B&lt;&lt;238.0,374.0&gt;-&lt;247.0,378.0&gt;-&lt;245.0,378.0&gt;&gt;
 
 * z (U+007A) contains a short segment B&lt;&lt;204.0,122.5&gt;-&lt;199.0,122.0&gt;-&lt;206.0,122.0&gt;&gt;
+
+* Uogonek (U+0172) contains a short segment B&lt;&lt;481.0,17.5&gt;-&lt;468.0,4.0&gt;-&lt;466.0,2.0&gt;&gt;
+
+* uogonek (U+0173) contains a short segment B&lt;&lt;406.0,23.0&gt;-&lt;402.0,20.0&gt;-&lt;397.0,17.0&gt;&gt;
+
+* uogonek (U+0173) contains a short segment B&lt;&lt;397.0,17.0&gt;-&lt;392.0,14.0&gt;-&lt;387.0,10.0&gt;&gt;
 
 * Zacute (U+0179) contains a short segment B&lt;&lt;60.0,49.0&gt;-&lt;60.0,56.0&gt;-&lt;61.5,62.5&gt;&gt;
 
@@ -464,11 +464,29 @@ approxequal
 
 * florin (U+0192) contains a short segment L&lt;&lt;193.0,500.0&gt;--&lt;193.0,504.0&gt;&gt;
 
+* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;228.0,568.0&gt;-&lt;217.0,568.0&gt;-&lt;210.5,559.5&gt;&gt;
+
+* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;210.5,559.5&gt;-&lt;204.0,551.0&gt;-&lt;204.0,538.0&gt;&gt;
+
 * Euro (U+20AC) contains a short segment B&lt;&lt;48.0,365.0&gt;-&lt;48.0,374.0&gt;-&lt;48.0,382.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment L&lt;&lt;198.0,382.0&gt;--&lt;198.0,378.0&gt;&gt;
 
-* infinity (U+221E) contains a short segment B&lt;&lt;431.0,220.0&gt;-&lt;429.0,218.0&gt;-&lt;427.0,216.0&gt;&gt;
+* emptyset (U+2205) contains a short segment L&lt;&lt;398.0,604.0&gt;--&lt;392.0,604.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;421.0,196.0&gt;--&lt;420.0,197.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;420.0,197.0&gt;--&lt;420.0,194.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;420.0,194.0&gt;--&lt;414.0,201.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;414.0,201.0&gt;--&lt;407.0,194.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;407.0,194.0&gt;--&lt;407.0,197.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;407.0,197.0&gt;--&lt;406.0,196.0&gt;&gt;
+
+* infinity (U+221E) contains a short segment L&lt;&lt;406.0,196.0&gt;--&lt;406.0,193.0&gt;&gt;
 
 * notequal (U+2260) contains a short segment L&lt;&lt;454.0,438.0&gt;--&lt;461.0,438.0&gt;&gt;
 
@@ -572,8 +590,8 @@ approxequal
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
