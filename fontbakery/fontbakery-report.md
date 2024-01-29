@@ -2,7 +2,25 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[24] Madimi-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+<details><summary><b>[26] Madimi-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
@@ -40,6 +58,7 @@ fontbakery version: 0.10.1
 
 
 * 🔥 **FAIL** Legacy accent "dieresis" are too narrow. [code: legacy-accents-width]
+* 🔥 **FAIL** Legacy accent "dotaccent" are too narrow. [code: legacy-accents-width]
 * 🔥 **FAIL** Legacy accent "cedilla" are too narrow. [code: legacy-accents-width]
 * 🔥 **FAIL** Legacy accent "ogonek" are too narrow. [code: legacy-accents-width]
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
@@ -69,17 +88,17 @@ fontbakery version: 0.10.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, tai-le, math, malayalam, old-permic, tifinagh, canadian-aboriginal
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, malayalam, tifinagh, canadian-aboriginal, math, old-permic, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -110,43 +129,41 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Racute	Contours detected: 2	Expected: 3
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uni0156	Contours detected: 2	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 2	Expected: 3
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: Racute	Contours detected: 2	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 2	Expected: 3
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
 	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
 
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uni0156	Contours detected: 2	Expected: 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
@@ -155,7 +172,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 474:
-greater, less
+less, greater
 
 Width = 517:
 multiply
@@ -202,19 +219,17 @@ greaterequal, lessequal
 
 	* five (U+0035) contains a short segment B<<187.0,443.5>-<185.0,427.0>-<185.0,427.0>>
 
-	* less (U+003C) contains a short segment L<<63.0,194.0>--<61.0,195.0>>
+	* less (U+003C) contains a short segment L<<63.0,257.0>--<61.0,258.0>>
 
-	* greater (U+003E) contains a short segment L<<411.0,314.0>--<413.0,313.0>>
+	* greater (U+003E) contains a short segment L<<411.0,377.0>--<413.0,376.0>>
 
 	* at (U+0040) contains a short segment B<<607.5,-90.0>-<620.0,-104.0>-<620.0,-118.0>>
 
-	* Z (U+005A) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+	* K (U+004B) contains a short segment B<<404.0,27.0>-<397.0,38.0>-<397.0,38.0>>
 
-	* Z (U+005A) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
+	* Z (U+005A) contains a short segment B<<355.0,561.0>-<368.0,568.0>-<366.0,568.0>>
 
-	* Z (U+005A) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
-
-	* Z (U+005A) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
+	* Z (U+005A) contains a short segment B<<241.0,144.5>-<232.0,139.0>-<233.0,139.0>>
 
 	* backslash (U+005C) contains a short segment B<<373.0,-1.0>-<375.0,-5.0>-<375.0,-9.5>>
 
@@ -226,51 +241,99 @@ greaterequal, lessequal
 
 	* asciicircum (U+005E) contains a short segment L<<178.0,428.0>--<179.0,430.0>>
 
+	* f (U+0066) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
+
 	* f (U+0066) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
 
-	* z (U+007A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+	* f (U+0066) contains a short segment L<<301.0,762.0>--<301.0,762.0>>
+
+	* f (U+0066) contains a short segment B<<301.0,762.0>-<302.0,762.0>-<303.0,762.0>>
+
+	* f (U+0066) contains a short segment B<<304.0,762.0>-<307.0,762.0>-<310.0,762.0>>
 
 	* z (U+007A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
 	* z (U+007A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
 
-	* Zacute (U+0179) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+	* section (U+00A7) contains a short segment B<<428.0,171.0>-<429.0,169.0>-<429.0,168.0>>
 
-	* Zacute (U+0179) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
+	* section (U+00A7) contains a short segment B<<429.0,168.0>-<429.0,167.0>-<429.0,166.0>>
 
-	* Zacute (U+0179) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
+	* section (U+00A7) contains a short segment B<<429.0,166.0>-<429.0,163.0>-<429.0,161.0>>
 
-	* Zacute (U+0179) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
+	* section (U+00A7) contains a short segment B<<429.0,161.0>-<429.0,160.0>-<429.0,159.0>>
 
-	* zacute (U+017A) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+	* section (U+00A7) contains a short segment B<<429.0,159.0>-<429.0,158.0>-<429.0,160.0>>
+
+	* section (U+00A7) contains a short segment B<<429.0,160.0>-<429.0,158.0>-<429.0,155.0>>
+
+	* Ccedilla (U+00C7) contains a short segment B<<370.0,-8.0>-<367.0,-8.0>-<365.0,-8.0>>
+
+	* Aogonek (U+0104) contains a short segment B<<514.0,5.0>-<509.0,-1.0>-<504.0,-6.5>>
+
+	* Aogonek (U+0104) contains a short segment B<<504.0,-6.5>-<499.0,-12.0>-<496.0,-15.0>>
+
+	* Aogonek (U+0104) contains a short segment B<<417.0,-24.0>-<420.0,-21.0>-<425.5,-15.5>>
+
+	* Aogonek (U+0104) contains a short segment B<<425.5,-15.5>-<431.0,-10.0>-<438.0,-5.0>>
+
+	* aogonek (U+0105) contains a short segment B<<257.0,-24.0>-<260.0,-21.0>-<265.0,-16.0>>
+
+	* aogonek (U+0105) contains a short segment B<<265.0,-16.0>-<270.0,-11.0>-<276.0,-6.0>>
+
+	* Eogonek (U+0118) contains a short segment B<<494.0,13.0>-<489.0,8.0>-<480.5,-1.5>>
+
+	* Eogonek (U+0118) contains a short segment B<<480.5,-1.5>-<472.0,-11.0>-<468.0,-15.0>>
+
+	* Eogonek (U+0118) contains a short segment B<<389.0,-24.0>-<393.0,-20.0>-<400.5,-13.0>>
+
+	* Eogonek (U+0118) contains a short segment B<<400.5,-13.0>-<408.0,-6.0>-<417.0,0.0>>
+
+	* eogonek (U+0119) contains a short segment B<<307.0,-24.0>-<310.0,-21.0>-<314.5,-16.5>>
+
+	* eogonek (U+0119) contains a short segment B<<314.5,-16.5>-<319.0,-12.0>-<325.0,-7.0>>
+
+	* Iogonek (U+012E) contains a short segment B<<98.0,-24.0>-<101.0,-21.0>-<106.5,-15.5>>
+
+	* Iogonek (U+012E) contains a short segment B<<185.5,-6.0>-<180.0,-12.0>-<177.0,-15.0>>
+
+	* iogonek (U+012F) contains a short segment L<<194.0,14.0>--<194.0,14.0>>
+
+	* iogonek (U+012F) contains a short segment B<<194.0,14.0>-<193.0,13.0>-<192.0,12.0>>
+
+	* iogonek (U+012F) contains a short segment B<<192.0,12.0>-<191.0,11.0>-<190.0,10.0>>
+
+	* uni0136 (U+0136) contains a short segment B<<404.0,27.0>-<397.0,38.0>-<397.0,38.0>>
+
+	* Uogonek (U+0172) contains a short segment B<<385.0,-24.0>-<388.0,-21.0>-<394.5,-14.0>>
+
+	* Uogonek (U+0172) contains a short segment B<<394.5,-14.0>-<401.0,-7.0>-<410.0,2.0>>
+
+	* uogonek (U+0173) contains a short segment B<<488.0,121.0>-<488.0,121.0>-<487.0,120.0>>
+
+	* uogonek (U+0173) contains a short segment B<<487.0,120.0>-<486.0,116.0>-<484.0,113.0>>
+
+	* uogonek (U+0173) contains a short segment B<<320.0,-24.0>-<324.0,-20.0>-<331.0,-13.0>>
+
+	* Zacute (U+0179) contains a short segment B<<355.0,561.0>-<368.0,568.0>-<366.0,568.0>>
+
+	* Zacute (U+0179) contains a short segment B<<241.0,144.5>-<232.0,139.0>-<233.0,139.0>>
 
 	* zacute (U+017A) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
 	* zacute (U+017A) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
 
-	* Zdotaccent (U+017B) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+	* Zdotaccent (U+017B) contains a short segment B<<355.0,561.0>-<368.0,568.0>-<366.0,568.0>>
 
-	* Zdotaccent (U+017B) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
-
-	* Zdotaccent (U+017B) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
-
-	* Zdotaccent (U+017B) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
-
-	* zdotaccent (U+017C) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+	* Zdotaccent (U+017B) contains a short segment B<<241.0,144.5>-<232.0,139.0>-<233.0,139.0>>
 
 	* zdotaccent (U+017C) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
 	* zdotaccent (U+017C) contains a short segment B<<204.0,122.5>-<199.0,122.0>-<206.0,122.0>>
 
-	* Zcaron (U+017D) contains a short segment B<<60.0,49.0>-<60.0,56.0>-<61.5,62.5>>
+	* Zcaron (U+017D) contains a short segment B<<355.0,561.0>-<368.0,568.0>-<366.0,568.0>>
 
-	* Zcaron (U+017D) contains a short segment B<<368.5,565.5>-<375.0,568.0>-<366.0,568.0>>
-
-	* Zcaron (U+017D) contains a short segment B<<543.0,640.0>-<543.0,632.0>-<540.0,622.5>>
-
-	* Zcaron (U+017D) contains a short segment B<<235.5,144.5>-<226.0,139.0>-<233.0,139.0>>
-
-	* zcaron (U+017E) contains a short segment B<<34.0,43.0>-<34.0,48.0>-<36.0,56.0>>
+	* Zcaron (U+017D) contains a short segment B<<241.0,144.5>-<232.0,139.0>-<233.0,139.0>>
 
 	* zcaron (U+017E) contains a short segment B<<238.0,374.0>-<247.0,378.0>-<245.0,378.0>>
 
@@ -286,23 +349,25 @@ greaterequal, lessequal
 
 	* uni1E9E (U+1E9E) contains a short segment B<<368.0,561.0>-<365.0,568.0>-<354.0,568.0>>
 
-	* Euro (U+20AC) contains a short segment B<<48.0,365.0>-<48.0,374.0>-<48.0,382.0>>
-
-	* Euro (U+20AC) contains a short segment L<<198.0,382.0>--<198.0,378.0>>
+	* Euro (U+20AC) contains a short segment B<<48.0,365.0>-<48.0,372.0>-<48.0,378.0>>
 
 	* emptyset (U+2205) contains a short segment L<<397.0,599.0>--<392.0,599.0>>
 
-	* notequal (U+2260) contains a short segment L<<464.0,438.0>--<471.0,438.0>>
+	* notequal (U+2260) contains a short segment L<<464.0,496.0>--<471.0,496.0>>
 
-	* lessequal (U+2264) contains a short segment L<<63.0,300.0>--<61.0,301.0>>
+	* lessequal (U+2264) contains a short segment L<<63.0,386.0>--<61.0,387.0>>
 
-	* greaterequal (U+2265) contains a short segment L<<421.0,420.0>--<423.0,419.0>>
+	* greaterequal (U+2265) contains a short segment L<<421.0,506.0>--<423.0,505.0>>
 
 	* fi (U+FB01) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
 
 	* fi (U+FB01) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
 
-	* fl (U+FB02) contains a short segment L<<98.0,500.0>--<98.0,504.0>> [code: found-short-segments]
+	* fl (U+FB02) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
+
+	* fl (U+FB02) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
+
+	* fl (U+FB02) contains a short segment L<<301.0,762.0>--<301.0,762.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -312,23 +377,25 @@ greaterequal, lessequal
 
 	* asciicircum (U+005E): L<<30.0,132.0>--<178.0,428.0>> -> L<<178.0,428.0>--<179.0,430.0>>
 
-	* greater (U+003E): L<<115.0,462.0>--<411.0,314.0>> -> L<<411.0,314.0>--<413.0,313.0>>
+	* fl (U+FB02): L<<301.0,762.0>--<301.0,762.0>> -> L<<301.0,762.0>--<510.0,762.0>>
 
-	* greater (U+003E): L<<413.0,195.0>--<411.0,194.0>> -> L<<411.0,194.0>--<115.0,46.0>>
+	* greater (U+003E): L<<115.0,525.0>--<411.0,377.0>> -> L<<411.0,377.0>--<413.0,376.0>>
 
-	* greaterequal (U+2265): L<<125.0,568.0>--<421.0,420.0>> -> L<<421.0,420.0>--<423.0,419.0>>
+	* greater (U+003E): L<<413.0,258.0>--<411.0,257.0>> -> L<<411.0,257.0>--<115.0,109.0>>
 
-	* greaterequal (U+2265): L<<423.0,301.0>--<421.0,300.0>> -> L<<421.0,300.0>--<125.0,152.0>>
+	* greaterequal (U+2265): L<<125.0,654.0>--<421.0,506.0>> -> L<<421.0,506.0>--<423.0,505.0>>
 
-	* less (U+003C): L<<359.0,46.0>--<63.0,194.0>> -> L<<63.0,194.0>--<61.0,195.0>>
+	* greaterequal (U+2265): L<<423.0,387.0>--<421.0,386.0>> -> L<<421.0,386.0>--<125.0,238.0>>
 
-	* less (U+003C): L<<61.0,313.0>--<63.0,314.0>> -> L<<63.0,314.0>--<359.0,462.0>>
+	* less (U+003C): L<<359.0,109.0>--<63.0,257.0>> -> L<<63.0,257.0>--<61.0,258.0>>
 
-	* lessequal (U+2264): L<<359.0,152.0>--<63.0,300.0>> -> L<<63.0,300.0>--<61.0,301.0>>
+	* less (U+003C): L<<61.0,376.0>--<63.0,377.0>> -> L<<63.0,377.0>--<359.0,525.0>>
 
-	* lessequal (U+2264): L<<61.0,419.0>--<63.0,420.0>> -> L<<63.0,420.0>--<359.0,568.0>>
+	* lessequal (U+2264): L<<359.0,238.0>--<63.0,386.0>> -> L<<63.0,386.0>--<61.0,387.0>>
 
-	* notequal (U+2260): L<<227.0,84.0>--<216.0,68.0>> -> L<<216.0,68.0>--<176.0,9.0>>
+	* lessequal (U+2264): L<<61.0,505.0>--<63.0,506.0>> -> L<<63.0,506.0>--<359.0,654.0>>
+
+	* notequal (U+2260): L<<227.0,142.0>--<216.0,126.0>> -> L<<216.0,126.0>--<176.0,67.0>>
 
 	* two (U+0032): L<<210.0,150.0>--<210.0,148.0>> -> L<<210.0,148.0>--<209.0,119.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -336,7 +403,7 @@ greaterequal, lessequal
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Lcaron (U+013D): B<<262.5,549.0>-<260.0,556.0>-<261.0,572.0>>/B<<261.0,572.0>-<261.0,569.0>-<268.5,611.5>> = 3.576334374997269
+	* Lcaron (U+013D): B<<377.5,549.0>-<375.0,556.0>-<376.0,572.0>>/B<<376.0,572.0>-<376.0,569.0>-<383.5,611.5>> = 3.576334374997269
 
 	* b (U+0062): B<<198.5,490.5>-<195.0,472.0>-<188.0,451.0>>/B<<188.0,451.0>-<207.0,482.0>-<240.5,495.0>> = 13.069317896282163
 
@@ -358,15 +425,7 @@ greaterequal, lessequal
 
 	* thorn (U+00FE): B<<240.5,7.0>-<207.0,22.0>-<188.0,53.0>>/B<<188.0,53.0>-<195.0,33.0>-<198.5,14.0>> = 12.21422050001543
 
-	* trademark (U+2122): B<<160.0,617.0>-<165.0,621.0>-<178.0,623.0>>/L<<178.0,623.0>--<80.0,623.0>> = 8.746162262555211
-
-	* z (U+007A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227
-
-	* zacute (U+017A): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227
-
-	* zcaron (U+017E): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227
-
-	* zdotaccent (U+017C): B<<371.0,345.0>-<360.0,330.0>-<361.0,331.0>>/L<<361.0,331.0>--<243.0,154.0>> = 11.309932474020227 [code: found-jaggy-segments]
+	* trademark (U+2122): B<<159.0,617.0>-<164.0,621.0>-<177.0,623.0>>/L<<177.0,623.0>--<80.0,623.0>> = 8.746162262555211 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -376,7 +435,7 @@ greaterequal, lessequal
 
 	* Tcaron (U+0164): L<<202.0,41.0>--<201.0,509.0>>
 
-	* trademark (U+2122): L<<678.0,553.0>--<677.0,365.0>>
+	* trademark (U+2122): L<<679.0,551.0>--<678.0,365.0>>
 
 	* uni021A (U+021A): L<<202.0,41.0>--<201.0,509.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
@@ -390,17 +449,17 @@ greaterequal, lessequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 14 | 122 | 7 | 99 | 0 |
-| 0% | 4% | 6% | 48% | 3% | 39% | 0% |
+| 1 | 11 | 14 | 123 | 7 | 96 | 0 |
+| 0% | 4% | 6% | 49% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
