@@ -33,17 +33,17 @@ fontbakery version: 0.10.9
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, syriac, math, coptic, old-permic, malayalam, tai-le
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, malayalam, canadian-aboriginal, tifinagh, coptic, old-permic, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -82,19 +82,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: Racute	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni0156	Contours detected: 2	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 2	Expected: 3
-
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Racute	Contours detected: 2	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 2	Expected: 3
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -107,8 +97,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni0156	Contours detected: 2	Expected: 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
@@ -126,7 +114,7 @@ Width = 571:
 approxequal
 
 Width = 484:
-greaterequal, lessequal
+lessequal, greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -166,8 +154,6 @@ greaterequal, lessequal
 
 	* at (U+0040) contains a short segment B<<607.5,-90.0>-<620.0,-104.0>-<620.0,-118.0>>
 
-	* K (U+004B) contains a short segment B<<404.0,27.0>-<397.0,38.0>-<397.0,38.0>>
-
 	* Z (U+005A) contains a short segment B<<355.0,561.0>-<368.0,568.0>-<366.0,568.0>>
 
 	* Z (U+005A) contains a short segment B<<241.0,144.5>-<232.0,139.0>-<233.0,139.0>>
@@ -191,18 +177,6 @@ greaterequal, lessequal
 	* f (U+0066) contains a short segment B<<301.0,762.0>-<302.0,762.0>-<303.0,762.0>>
 
 	* f (U+0066) contains a short segment B<<304.0,762.0>-<307.0,762.0>-<310.0,762.0>>
-
-	* section (U+00A7) contains a short segment B<<428.0,171.0>-<429.0,169.0>-<429.0,168.0>>
-
-	* section (U+00A7) contains a short segment B<<429.0,168.0>-<429.0,167.0>-<429.0,166.0>>
-
-	* section (U+00A7) contains a short segment B<<429.0,166.0>-<429.0,163.0>-<429.0,161.0>>
-
-	* section (U+00A7) contains a short segment B<<429.0,161.0>-<429.0,160.0>-<429.0,159.0>>
-
-	* section (U+00A7) contains a short segment B<<429.0,159.0>-<429.0,158.0>-<429.0,160.0>>
-
-	* section (U+00A7) contains a short segment B<<429.0,160.0>-<429.0,158.0>-<429.0,155.0>>
 
 	* Ccedilla (U+00C7) contains a short segment B<<370.0,-8.0>-<367.0,-8.0>-<365.0,-8.0>>
 
@@ -239,8 +213,6 @@ greaterequal, lessequal
 	* iogonek (U+012F) contains a short segment B<<194.0,14.0>-<193.0,13.0>-<192.0,12.0>>
 
 	* iogonek (U+012F) contains a short segment B<<192.0,12.0>-<191.0,11.0>-<190.0,10.0>>
-
-	* uni0136 (U+0136) contains a short segment B<<404.0,27.0>-<397.0,38.0>-<397.0,38.0>>
 
 	* Uogonek (U+0172) contains a short segment B<<385.0,-24.0>-<388.0,-21.0>-<394.5,-14.0>>
 
@@ -376,9 +348,9 @@ greaterequal, lessequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), South Central Banda (Latn, 244,000 speakers), Aghem (Latn, 38,843 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Sar (Latn, 500,000 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Makaa (Latn, 221,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Mango (Latn, 77,000 speakers), Zapotec (Latn, 490,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Avokaya (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Bete-Bendi (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Fur (Latn, 1,230,163 speakers), Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Dii (Latn, 71,000 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mfumte (Latn, 79,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Cicipu (Latn, 44,000 speakers), Bafut (Latn, 158,146 speakers), Makaa (Latn, 221,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nzakara (Latn, 50,000 speakers), Yala (Latn, 200,000 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
