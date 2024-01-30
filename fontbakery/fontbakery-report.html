@@ -120,6 +120,7 @@ ul {
             <table>
             <tr>
                 <th>💥 ERROR</th>
+                <th>☠ FATAL</th>
                 <th>🔥 FAIL</th>
                 <th>⚠️ WARN</th>
                 <th>⏩ SKIP</th>
@@ -127,20 +128,22 @@ ul {
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>9</td>
                 <td>14</td>
-                <td>123</td>
+                <td>125</td>
                 <td>7</td>
-                <td>96</td>
+                <td>101</td>
             </tr>
             <tr>
-                <td>1%</td>
-                <td>6%</td>
+                <td>0%</td>
+                <td>0%</td>
+                <td>4%</td>
                 <td>7%</td>
                 <td>62%</td>
-                <td>4%</td>
-                <td>48%</td>
+                <td>3%</td>
+                <td>50%</td>
             </tr>
             </table>
             
@@ -150,6 +153,8 @@ ul {
 
     <ul>
     <li>💥 An <em>ERROR</em> is something wrong with FontBakery itself, possibly a bug.
+    <li>☠ A <em>FATAL</em> is an extremely severe issue that must be addressed
+    immediately.
     <li>🔥 A <em>FAIL</em> is a problem with the font that must be fixed.
     <li>⚠️ A <em>WARN</em> is something that you should consider addressing.
     <li>ℹ️ An <em>INFO</em> result simply prints something useful. Typically stats.
@@ -163,14 +168,14 @@ ul {
     <p>(but other kinds of bug reports and/or feature requests
        are also always welcome, of course!)</p>
 
-    <p>FontBakery version: 0.10.1</p>
+    <p>FontBakery version: 0.10.9</p>
     
 <h2>Section: Google Fonts</h2>
-<span class='section__emoji'>💥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Checking OS/2 achVendID.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vendor_id</div>
 
-<details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a>
 [code: unknown]</p>
 </span></li></ul></div></details>
 <h3>Check for codepoints not covered by METADATA subsets.</h3>
@@ -182,16 +187,16 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, malayalam, tifinagh, canadian-aboriginal, math, old-permic, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, syriac, tai-le, coptic, malayalam, math, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
@@ -212,35 +217,53 @@ definitions.</p>
 <h3>Check copyright namerecords match license file.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/name/license</div>
 
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: <a href="https://openfontlicense.org">https://openfontlicense.org</a>&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: <a href="https://scripts.sil.org/OFL">https://scripts.sil.org/OFL</a>&quot; [code: wrong]</p>
 </span></li></ul></div></details>
 <h3>Check font names are correct</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/font_names</div>
 
 <details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font names are incorrect:</p>
-<p>| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | <strong>Madimi Bold</strong> | <strong>Madimi</strong> |
-| Subfamily Name | <strong>Regular</strong> | <strong>Bold</strong> |
-| Full Name | Madimi Bold | Madimi Bold |
-| Postscript Name | Madimi-Bold | Madimi-Bold |
-| Typographic Family Name | <strong>Madimi</strong> | <strong>N/A</strong> |
-| Typographic Subfamily Name | <strong>Bold</strong> | <strong>N/A</strong> | [code: bad-names]</p>
-</span></li></ul></div></details>
-<h3>Familyname must be unique according to namecheck.fontdata.com</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/fontdata_namecheck</div>
-
-<details><summary>💥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed to access: http://namecheck.fontdata.com.
-This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.</p>
-<pre><code>	You can exclude this check with the command line option:
-	-x com.google.fonts/check/fontdata_namecheck
-
-	Or you can wait until the service is available again.
-	If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
-
-	Original error message:
-	&lt;class 'requests.exceptions.ConnectionError'&gt; [code: namecheck-service]
-</code></pre>
+<table>
+<thead>
+<tr>
+<th align="left">nameID</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Family Name</td>
+<td align="left"><strong>Madimi Bold</strong></td>
+<td align="left"><strong>Madimi</strong></td>
+</tr>
+<tr>
+<td align="left">Subfamily Name</td>
+<td align="left"><strong>Regular</strong></td>
+<td align="left"><strong>Bold</strong></td>
+</tr>
+<tr>
+<td align="left">Full Name</td>
+<td align="left">Madimi Bold</td>
+<td align="left">Madimi Bold</td>
+</tr>
+<tr>
+<td align="left">Postscript Name</td>
+<td align="left">Madimi-Bold</td>
+<td align="left">Madimi-Bold</td>
+</tr>
+<tr>
+<td align="left">Typographic Family Name</td>
+<td align="left"><strong>Madimi</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">Typographic Subfamily Name</td>
+<td align="left"><strong>Bold</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+</tbody>
+</table>
 </span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vertical_metrics</div>
@@ -258,7 +281,7 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
-<span class='section__emoji'>🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
 
@@ -269,19 +292,6 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 <div class='check__idlabel'>Check ID: com.google.fonts/check/os2_metrics_match_hhea</div>
 
 <details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (750) and hhea ascent (950) must be equal. [code: ascender]</p>
-</span></li></ul></div></details>
-<h3>Do we have the latest version of FontBakery installed?</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/fontbakery_version</div>
-
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
-</span></li></ul></div></details>
-<h3>Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents)</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/legacy_accents</div>
-
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Legacy accent &quot;dieresis&quot; are too narrow. [code: legacy-accents-width]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Legacy accent &quot;dotaccent&quot; are too narrow. [code: legacy-accents-width]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Legacy accent &quot;cedilla&quot; are too narrow. [code: legacy-accents-width]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Legacy accent &quot;ogonek&quot; are too narrow. [code: legacy-accents-width]</p>
 </span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/contour_count</div>
@@ -333,7 +343,7 @@ This check relies on the external service http://namecheck.fontdata.com via the 
 <h3>Space and non-breaking space have the same width?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/whitespace_widths</div>
 
-<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 218 font units wide, non-breaking space named (uni00A0) is 222 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
+<details><summary>🔥 Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Space and non-breaking space have differing width: The space glyph named space is 218 font units wide, non-breaking space named (uni00A0) is 222 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]</p>
 </span></li></ul></div></details>
 <h3>Check math signs have the same width.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/math_signs_width</div>
@@ -347,7 +357,7 @@ multiply</p>
 <p>Width = 571:
 approxequal</p>
 <p>Width = 484:
-greaterequal, lessequal
+lessequal, greaterequal
 [code: width-outliers]</p>
 </span></li></ul></div></details>
 <h3>Checking Vertical Metric Linegaps.</h3>
@@ -643,8 +653,8 @@ greaterequal, lessequal
 
 <details><summary>⚠️ Madimi-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Mundani (Latn, 34,000 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Makaa (Latn, 221,000 speakers), Cicipu (Latn, 44,000 speakers), Fur (Latn, 1,230,163 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nzakara (Latn, 50,000 speakers), Mango (Latn, 77,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ngbaka (Latn, 1,020,000 speakers), Basaa (Latn, 332,940 speakers), Southern Kisi (Latn, 360,000 speakers), Lugbara (Latn, 2,200,000 speakers), Yala (Latn, 200,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers), Bafut (Latn, 158,146 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Sar (Latn, 500,000 speakers), South Central Banda (Latn, 244,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
