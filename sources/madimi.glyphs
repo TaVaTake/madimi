@@ -7,7 +7,8 @@ t,
 "́",
 "̀",
 "̒",
-"̦"
+"̦",
+" /nbspace"
 );
 customParameters = (
 {
@@ -15622,10 +15623,11 @@ unicode = 32;
 {
 color = 7;
 glyphname = nbspace;
+lastChange = "2024-01-30 19:51:21 +0000";
 layers = (
 {
 layerId = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
-width = 222;
+width = 218;
 }
 );
 unicode = 160;
