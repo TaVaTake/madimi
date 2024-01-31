@@ -20,14 +20,14 @@ fontbakery version: 0.10.9
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, old-permic, tai-le, math, tifinagh, syriac, canadian-aboriginal, malayalam
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, coptic, old-permic, syriac, tai-le, canadian-aboriginal, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -46,6 +46,14 @@ fontbakery version: 0.10.9
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -92,7 +100,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 474:
-greater, less
+less, greater
 
 Width = 517:
 multiply
@@ -101,17 +109,13 @@ Width = 571:
 approxequal
 
 Width = 484:
-lessequal, greaterequal
+greaterequal, lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
 
 * ⚠ **WARN** lcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 * ⚠ **WARN** tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -168,6 +172,10 @@ lessequal, greaterequal
 	* y (U+0079): X=144.5,Y=498.5 (should be at x-height 500?)
 
 	* y (U+0079): X=465.5,Y=498.5 (should be at x-height 500?)
+
+	* braceleft (U+007B): X=303.0,Y=702.0 (should be at cap-height 700?)
+
+	* braceright (U+007D): X=80.0,Y=702.0 (should be at cap-height 700?)
 
 	* sterling (U+00A3): X=474.5,Y=698.0 (should be at cap-height 700?)
 
@@ -449,17 +457,17 @@ lessequal, greaterequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Kpelle, Guinea (Latn, 622,000 speakers), Dan (Latn, 1,099,244 speakers), Mango (Latn, 77,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Mundani (Latn, 34,000 speakers), Gulay (Latn, 250,478 speakers), Basaa (Latn, 332,940 speakers), Cicipu (Latn, 44,000 speakers), Avokaya (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Nateni (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers), Yala (Latn, 200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Southern Kisi (Latn, 360,000 speakers), Koonzime (Latn, 40,000 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Fur (Latn, 1,230,163 speakers), Bafut (Latn, 158,146 speakers), South Central Banda (Latn, 244,000 speakers), Nzakara (Latn, 50,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Sar (Latn, 500,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Dan (Latn, 1,099,244 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Kom (Latn, 360,685 speakers), Dii (Latn, 71,000 speakers), Fur (Latn, 1,230,163 speakers), Belarusian (Cyrl, 10,064,517 speakers), Cicipu (Latn, 44,000 speakers), Basaa (Latn, 332,940 speakers), Ma’di (Latn, 584,000 speakers), Southern Kisi (Latn, 360,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Mango (Latn, 77,000 speakers), South Central Banda (Latn, 244,000 speakers), Yala (Latn, 200,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Makaa (Latn, 221,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Bafut (Latn, 158,146 speakers), Sar (Latn, 500,000 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Mfumte (Latn, 79,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 0 | 0 | 1 | 14 | 125 | 7 | 109 | 0 |
-| 0% | 0% | 0% | 5% | 49% | 3% | 43% | 0% |
+| 0 | 0 | 1 | 14 | 124 | 7 | 110 | 0 |
+| 0% | 0% | 0% | 5% | 48% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
