@@ -12,16 +12,14 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaVaTake%2Fmadimi%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaVaTake%2Fmadimi%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
-
-Don't hesitate to create images!
+Madimi is a rounded sans with a mixed geometric and organic design. 	The design covers all of Google Latin Core. Madimi takes inspiration from the gentle curved geometry of certain Southern Afrikan graphic symbols. Circles are a main feature, the circle being a shape that represents the womb of a woman in KiNtu symbologies. The idea behind Madimi is to enact the  subtle visual subtext of Afrikan visual traditions. Madimi is simple, clean and round edged but still remains clear and easy to read.
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
 
 ## About
 
-Description of you and/or organisation goes here.
+Taurai Valerie Mtake is a Type Designer, and Graphic Designer from Harare, Zimbabwe. Currently based in Stockholm, Sweden. Taurai designed Madimi with mentoring and technical help from Laura Meseguer, Lisa Huang, and Mirko Velimirovic. 
 
 ## Building
 
