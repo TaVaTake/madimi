@@ -2,7 +2,12 @@
 .appVersion = "3239";
 .formatVersion = 3;
 DisplayStrings = (
-"AÁĂÂÄÀĀĄÅÃÆBCĆČÇĊDĎĐÐEÉĚÊËĖÈĒĘFGĞĢĠHĦIĲÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŤȚUÚŬÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻaáăâäàāąåãæbcćčçċdďđðeéěêëėèēęfgğģġhħiıíîï/idotaccent ìīįĳjȷkķlĺľļłmnńňņñŋoóôöòőōøõœpþqrŕřŗsśšşșßtťțuúŭûüùűūųůvwẃŵẅẁxyýŷÿỳzźžż"
+"AÁĂÂÄÀĀĄÅÃÆBCĆČÇĊDĎĐÐEÉĚÊËĖÈĒĘFGĞĢĠHĦIĲÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŤȚUÚŬÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻaáăâäàāąåãæbcćčçċdďđðeéěêëėèēęfgğģġhħiıíîï/idotaccent ìīįĳjȷkķlĺľļłmnńňņñŋoóôöòőōøõœpþqrŕřŗsśšşșßtťțuúŭûüùűūųůvwẃŵẅẁxyýŷÿỳzźžż",
+"̂",
+T,
+"TȚ̌Ț",
+c,
+"cćčċ"
 );
 customParameters = (
 {
@@ -540,7 +545,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (123,200);
+pos = (122,200);
 ref = circumflexcomb;
 }
 );
@@ -1518,7 +1523,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (129,200);
+pos = (128,200);
 ref = circumflexcomb;
 }
 );
@@ -2581,7 +2586,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-31,200);
+pos = (-32,200);
 ref = circumflexcomb;
 }
 );
@@ -3625,7 +3630,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (145,200);
+pos = (144,200);
 ref = circumflexcomb;
 }
 );
@@ -5146,7 +5151,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (148,200);
+pos = (147,200);
 ref = circumflexcomb;
 }
 );
@@ -5904,7 +5909,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (113,200);
+pos = (112,200);
 ref = circumflexcomb;
 }
 );
@@ -6334,7 +6339,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (80,0);
+pos = (79,0);
 ref = circumflexcomb;
 }
 );
@@ -6631,7 +6636,7 @@ color = 7;
 glyphname = c;
 kernLeft = KO_c;
 kernRight = KO_c;
-lastChange = "2024-02-07 12:37:25 +0000";
+lastChange = "2024-02-13 18:48:30 +0000";
 layers = (
 {
 anchors = (
@@ -6641,7 +6646,7 @@ pos = (236,0);
 },
 {
 name = top;
-pos = (226,500);
+pos = (266,500);
 }
 );
 background = {
@@ -6792,6 +6797,7 @@ color = 7;
 glyphname = cacute;
 kernLeft = KO_ccaron;
 kernRight = KO_c;
+lastChange = "2024-02-13 18:48:34 +0000";
 layers = (
 {
 layerId = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
@@ -6800,7 +6806,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (89,0);
+pos = (129,0);
 ref = acutecomb;
 }
 );
@@ -6814,6 +6820,7 @@ color = 7;
 glyphname = ccaron;
 kernLeft = KO_ccaron;
 kernRight = KO_c;
+lastChange = "2024-02-13 18:48:35 +0000";
 layers = (
 {
 layerId = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
@@ -6822,7 +6829,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (51,0);
+pos = (91,0);
 ref = caroncomb;
 }
 );
@@ -6859,6 +6866,7 @@ color = 7;
 glyphname = cdotaccent;
 kernLeft = KO_c;
 kernRight = KO_c;
+lastChange = "2024-02-13 18:48:35 +0000";
 layers = (
 {
 layerId = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
@@ -6867,7 +6875,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (154,0);
+pos = (194,0);
 ref = dotaccentcomb;
 }
 );
@@ -7490,7 +7498,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (75,0);
+pos = (74,0);
 ref = circumflexcomb;
 }
 );
@@ -8308,7 +8316,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-40,0);
+pos = (-41,0);
 ref = circumflexcomb;
 }
 );
@@ -9544,7 +9552,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (91,0);
+pos = (90,0);
 ref = circumflexcomb;
 }
 );
@@ -10896,7 +10904,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (107,0);
+pos = (106,0);
 ref = circumflexcomb;
 }
 );
@@ -11353,7 +11361,7 @@ shapes = (
 ref = w;
 },
 {
-pos = (227,0);
+pos = (226,0);
 ref = circumflexcomb;
 }
 );
@@ -11701,7 +11709,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (89,0);
+pos = (88,0);
 ref = circumflexcomb;
 }
 );
@@ -19349,6 +19357,7 @@ width = 133;
 {
 color = 7;
 glyphname = circumflexcomb;
+lastChange = "2024-02-13 18:47:25 +0000";
 layers = (
 {
 anchors = (
@@ -19416,11 +19425,11 @@ width = 521;
 anchors = (
 {
 name = _top;
-pos = (175,500);
+pos = (176,500);
 },
 {
 name = top;
-pos = (225,770);
+pos = (176,755);
 }
 );
 layerId = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
@@ -20111,7 +20120,7 @@ unicode = 803;
 {
 color = 7;
 glyphname = commaaccentcomb;
-lastChange = "2024-01-30 19:47:37 +0000";
+lastChange = "2024-02-13 18:48:15 +0000";
 layers = (
 {
 anchors = (
@@ -20128,7 +20137,7 @@ layerId = "2F065738-4B59-43EB-A5F2-FD5F277958EA";
 shapes = (
 {
 angle = 5;
-pos = (-13,-152);
+pos = (-33,-152);
 ref = comma;
 scale = (0.7255,0.6792);
 }
