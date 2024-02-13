@@ -273,10 +273,10 @@ you're checking.</p>
         <td>2</td>
         <td>0</td>
         <td>0</td>
-        <td>13</td>
+        <td>14</td>
         <td>124</td>
         <td>7</td>
-        <td>114</td>
+        <td>113</td>
     </tr>
     <tr>
         <td>1%</td>
@@ -285,7 +285,7 @@ you're checking.</p>
         <td>5%</td>
         <td>48%</td>
         <td>3%</td>
-        <td>44%</td>
+        <td>43%</td>
     </tr>
 </table>
         
@@ -315,7 +315,7 @@ immediately.
             
                 <h2>Google Fonts</h2>
 <span class='section__emoji'>
-    💥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️
+    💥💥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️
 </span>
 
     
@@ -382,7 +382,7 @@ immediately.
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -410,6 +410,59 @@ immediately.
     
 
     
+        <h3>
+    
+    Check Google Fonts glyph coverage.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+        <details>
+            <summary>
+                💥
+                MadimiOne-Regular.ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            💥 ERROR
+                            </span>
+
+                            <span class='details_text'>
+                            <p>Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/glyphsets/definitions/<strong>init</strong>.py)</p>
+<pre><code>  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 170, in _exec_check
+    results.extend(list(result))
+  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts.py&quot;, line 1076, in com_google_fonts_check_glyph_coverage
+    glyphsets_fulfilled = get_glyphsets_fulfilled(ttFont)
+  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts_conditions.py&quot;, line 748, in get_glyphsets_fulfilled
+    from glyphsets.definitions import unicodes_per_glyphset, glyphset_definitions
+
+</code></pre>
+
+                            
+                             [code: failed-check]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
+    
+
+    
 
     
 
@@ -433,7 +486,7 @@ immediately.
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -451,17 +504,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, canadian-aboriginal, malayalam, tai-le, math, syriac, old-permic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, old-permic, tai-le, coptic, tifinagh, canadian-aboriginal, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -617,7 +670,7 @@ definitions.</p>
         <details>
             <summary>
                 💥
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -629,13 +682,13 @@ definitions.</p>
                             </span>
 
                             <span class='details_text'>
-                            <p>Failed with AttributeError: 'Vharfbuzz' object has no attribute 'ttfont'</p>
+                            <p>Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/glyphsets/definitions/<strong>init</strong>.py)</p>
 <pre><code>  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 170, in _exec_check
     results.extend(list(result))
-  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts.py&quot;, line 3537, in com_google_fonts_check_glyphsets_shape_languages
-    shaperglot_checker = Checker(ttFont.reader.file.name)
-  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/shaperglot/checker.py&quot;, line 23, in __init__
-    self.ttfont = self.vharfbuzz.ttfont
+  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts.py&quot;, line 3543, in com_google_fonts_check_glyphsets_shape_languages
+    glyphsets_fulfilled = get_glyphsets_fulfilled(ttFont)
+  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts_conditions.py&quot;, line 748, in get_glyphsets_fulfilled
+    from glyphsets.definitions import unicodes_per_glyphset, glyphset_definitions
 
 </code></pre>
 
@@ -714,7 +767,7 @@ definitions.</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -823,7 +876,7 @@ definitions.</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -950,7 +1003,7 @@ definitions.</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1042,7 +1095,7 @@ definitions.</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1057,13 +1110,13 @@ definitions.</p>
                             <p>The most common width is 559 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 474:
-less, greater</p>
+greater, less</p>
 <p>Width = 517:
 multiply</p>
 <p>Width = 571:
 approxequal</p>
 <p>Width = 484:
-lessequal, greaterequal</p>
+greaterequal, lessequal</p>
 
                             
                              [code: width-outliers]
@@ -1104,7 +1157,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1219,7 +1272,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1406,7 +1459,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1557,7 +1610,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1630,7 +1683,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1709,7 +1762,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1749,7 +1802,7 @@ lessequal, greaterequal</p>
             
                 <h2>Shaping Checks</h2>
 <span class='section__emoji'>
-    💥⚠️⏩⏩⏩
+    ⚠️⚠️⏩⏩⏩
 </span>
 
     
@@ -1778,7 +1831,7 @@ lessequal, greaterequal</p>
         <details>
             <summary>
                 ⚠️
-                Madimi-Bold.ttf
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1824,8 +1877,8 @@ lessequal, greaterequal</p>
     
         <details>
             <summary>
-                💥
-                Madimi-Bold.ttf
+                ⚠️
+                MadimiOne-Regular.ttf
                 
             </summary>
             <div>
@@ -1833,22 +1886,17 @@ lessequal, greaterequal</p>
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
-                            💥 ERROR
+                            ⚠️ WARN
                             </span>
 
                             <span class='details_text'>
-                            <p>Failed with AttributeError: 'Vharfbuzz' object has no attribute 'ttfont'</p>
-<pre><code>  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 170, in _exec_check
-    results.extend(list(result))
-  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/fontbakery/profiles/shaping.py&quot;, line 726, in com_google_fonts_check_soft_dotted
-    checker = Checker(ttFont.reader.file.name)
-  File &quot;/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/shaperglot/checker.py&quot;, line 23, in __init__
-    self.ttfont = self.vharfbuzz.ttfont
-
-</code></pre>
+                            <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Ekpeye (Latn, 226,000 speakers), Ebira (Latn, 2,200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Lugbara (Latn, 2,200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Bafut (Latn, 158,146 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Zapotec (Latn, 490,000 speakers), Fur (Latn, 1,230,163 speakers), Mango (Latn, 77,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Makaa (Latn, 221,000 speakers), Mfumte (Latn, 79,000 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Dii (Latn, 71,000 speakers), Southern Kisi (Latn, 360,000 speakers), Cicipu (Latn, 44,000 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers).</p>
 
                             
-                             [code: failed-check]
+                             [code: soft-dotted]
                             
                             </span>
                         </li>
