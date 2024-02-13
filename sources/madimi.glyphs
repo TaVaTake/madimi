@@ -1,5 +1,5 @@
 {
-.appVersion = "3235";
+.appVersion = "3239";
 .formatVersion = 3;
 DisplayStrings = (
 "AÁĂÂÄÀĀĄÅÃÆBCĆČÇĊDĎĐÐEÉĚÊËĖÈĒĘFGĞĢĠHĦIĲÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŤȚUÚŬÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻaáăâäàāąåãæbcćčçċdďđðeéěêëėèēęfgğģġhħiıíîï/idotaccent ìīįĳjȷkķlĺľļłmnńňņñŋoóôöòőōøõœpþqrŕřŗsśšşșßtťțuúŭûüùűūųůvwẃŵẅẁxyýŷÿỳzźžż"
@@ -72,7 +72,7 @@ value = 1;
 }
 );
 date = "2023-10-25 20:34:19 +0000";
-familyName = Madimi;
+familyName = "Madimi One";
 featurePrefixes = (
 {
 automatic = 1;
@@ -245,7 +245,7 @@ pos = -310;
 {
 }
 );
-name = Bold;
+name = Regular;
 stemValues = (
 120,
 144
@@ -20624,9 +20624,7 @@ instances = (
 instanceInterpolations = {
 "2F065738-4B59-43EB-A5F2-FD5F277958EA" = 1;
 };
-isBold = 1;
-name = Bold;
-weightClass = 700;
+name = Regular;
 }
 );
 kerningLTR = {
@@ -31549,15 +31547,11 @@ key = manufacturerURL;
 value = "http://tavatake.africa";
 },
 {
-key = postscriptFontName;
-value = Madimi;
-},
-{
 key = postscriptFullNames;
 values = (
 {
 language = dflt;
-value = "Madimi ";
+value = "Madimi One";
 }
 );
 }
