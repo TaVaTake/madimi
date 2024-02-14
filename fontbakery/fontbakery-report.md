@@ -2,7 +2,7 @@
 
 fontbakery version: 0.11.1
 
-<h2>Check results</h2><details><summary><b>[16] MadimiOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<h2>Check results</h2><details><summary><b>[14] MadimiOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/madimi/madimi/venv-test/lib/python3.10/site-packages/glyphsets/definitions/__init__.py)
@@ -42,16 +42,16 @@ fontbakery version: 0.11.1
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tai-le, old-permic, malayalam, math, syriac, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, tai-le, syriac, old-permic, malayalam, math, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -122,7 +122,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 474:
-less, greater
+greater, less
 
 Width = 517:
 multiply
@@ -263,15 +263,15 @@ greaterequal, lessequal
 
 	* uni0218 (U+0218): X=158.0,Y=-2.0 (should be at baseline 0?)
 
-	* circumflex (U+02C6): X=246.0,Y=702.0 (should be at cap-height 700?)
+	* circumflex (U+02C6): X=312.0,Y=702.0 (should be at cap-height 700?)
 
-	* circumflex (U+02C6): X=4.0,Y=702.0 (should be at cap-height 700?)
+	* circumflex (U+02C6): X=70.0,Y=702.0 (should be at cap-height 700?)
 
-	* caron (U+02C7): X=-46.0,Y=701.0 (should be at cap-height 700?)
+	* caron (U+02C7): X=20.0,Y=701.0 (should be at cap-height 700?)
 
-	* caron (U+02C7): X=297.0,Y=701.0 (should be at cap-height 700?)
+	* caron (U+02C7): X=363.0,Y=701.0 (should be at cap-height 700?)
 
-	* tilde (U+02DC): X=160.0,Y=701.5 (should be at cap-height 700?)
+	* tilde (U+02DC): X=189.0,Y=701.5 (should be at cap-height 700?)
 
 	* tildecomb (U+0303): X=169.0,Y=701.5 (should be at cap-height 700?)
 
@@ -305,10 +305,6 @@ greaterequal, lessequal
 
 	* five (U+0035) contains a short segment B<<187.0,443.5>-<185.0,427.0>-<185.0,427.0>>
 
-	* less (U+003C) contains a short segment L<<63.0,257.0>--<61.0,258.0>>
-
-	* greater (U+003E) contains a short segment L<<411.0,377.0>--<413.0,376.0>>
-
 	* at (U+0040) contains a short segment B<<607.5,-90.0>-<620.0,-104.0>-<620.0,-118.0>>
 
 	* Z (U+005A) contains a short segment B<<355.0,561.0>-<368.0,568.0>-<366.0,568.0>>
@@ -322,8 +318,6 @@ greaterequal, lessequal
 	* backslash (U+005C) contains a short segment B<<55.0,706.0>-<54.0,711.0>-<53.5,716.5>>
 
 	* backslash (U+005C) contains a short segment B<<53.5,716.5>-<53.0,722.0>-<53.0,726.0>>
-
-	* asciicircum (U+005E) contains a short segment L<<178.0,428.0>--<179.0,430.0>>
 
 	* f (U+0066) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
 
@@ -375,11 +369,7 @@ greaterequal, lessequal
 
 	* emptyset (U+2205) contains a short segment L<<397.0,599.0>--<392.0,599.0>>
 
-	* notequal (U+2260) contains a short segment L<<464.0,496.0>--<471.0,496.0>>
-
-	* lessequal (U+2264) contains a short segment L<<63.0,386.0>--<61.0,387.0>>
-
-	* greaterequal (U+2265) contains a short segment L<<421.0,506.0>--<423.0,505.0>>
+	* notequal (U+2260) contains a short segment L<<463.0,496.0>--<471.0,496.0>>
 
 	* fi (U+FB01) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
 
@@ -387,39 +377,7 @@ greaterequal, lessequal
 
 	* fl (U+FB02) contains a short segment L<<98.0,379.0>--<84.0,379.0>>
 
-	* fl (U+FB02) contains a short segment L<<98.0,500.0>--<98.0,504.0>>
-
-	* fl (U+FB02) contains a short segment L<<301.0,762.0>--<301.0,762.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Outline Correctness Checks.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* asciicircum (U+005E): L<<297.0,430.0>--<298.0,428.0>> -> L<<298.0,428.0>--<446.0,132.0>>
-
-	* asciicircum (U+005E): L<<30.0,132.0>--<178.0,428.0>> -> L<<178.0,428.0>--<179.0,430.0>>
-
-	* fl (U+FB02): L<<301.0,762.0>--<301.0,762.0>> -> L<<301.0,762.0>--<510.0,762.0>>
-
-	* greater (U+003E): L<<115.0,525.0>--<411.0,377.0>> -> L<<411.0,377.0>--<413.0,376.0>>
-
-	* greater (U+003E): L<<413.0,258.0>--<411.0,257.0>> -> L<<411.0,257.0>--<115.0,109.0>>
-
-	* greaterequal (U+2265): L<<125.0,654.0>--<421.0,506.0>> -> L<<421.0,506.0>--<423.0,505.0>>
-
-	* greaterequal (U+2265): L<<423.0,387.0>--<421.0,386.0>> -> L<<421.0,386.0>--<125.0,238.0>>
-
-	* less (U+003C): L<<359.0,109.0>--<63.0,257.0>> -> L<<63.0,257.0>--<61.0,258.0>>
-
-	* less (U+003C): L<<61.0,376.0>--<63.0,377.0>> -> L<<63.0,377.0>--<359.0,525.0>>
-
-	* lessequal (U+2264): L<<359.0,238.0>--<63.0,386.0>> -> L<<63.0,386.0>--<61.0,387.0>>
-
-	* lessequal (U+2264): L<<61.0,505.0>--<63.0,506.0>> -> L<<63.0,506.0>--<359.0,654.0>>
-
-	* notequal (U+2260): L<<227.0,142.0>--<216.0,126.0>> -> L<<216.0,126.0>--<176.0,67.0>>
-
-	* two (U+0032): L<<210.0,150.0>--<210.0,148.0>> -> L<<210.0,148.0>--<209.0,119.0>> [code: found-colinear-vectors]
+	* fl (U+FB02) contains a short segment L<<98.0,500.0>--<98.0,504.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Outline Correctness Checks.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -456,18 +414,6 @@ greaterequal, lessequal
 	* zcaron (U+017E): B<<243.0,154.0>-<225.0,126.0>-<202.0,122.0>>/L<<202.0,122.0>--<372.0,122.0>> = 9.865806943084365
 
 	* zdotaccent (U+017C): B<<243.0,154.0>-<225.0,126.0>-<202.0,122.0>>/L<<202.0,122.0>--<372.0,122.0>> = 9.865806943084365 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Outline Correctness Checks.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* T (U+0054): L<<202.0,41.0>--<201.0,509.0>>
-
-	* Tcaron (U+0164): L<<202.0,41.0>--<201.0,509.0>>
-
-	* trademark (U+2122): L<<679.0,551.0>--<678.0,365.0>>
-
-	* uni021A (U+021A): L<<202.0,41.0>--<201.0,509.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -479,17 +425,17 @@ greaterequal, lessequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̣̀ į̣́ į̣̂ į̣̃ į̣̄ į̣̆ į̣̇ į̣̈ į̣̊ į̣̋ į̣̌ į̣̒ į̦̀ į̦́
 
-Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ekpeye (Latn, 226,000 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Belarusian (Cyrl, 10,064,517 speakers), Zapotec (Latn, 490,000 speakers), Mango (Latn, 77,000 speakers), Mfumte (Latn, 79,000 speakers), Avokaya (Latn, 100,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Bete-Bendi (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Nateni (Latn, 100,000 speakers), Yala (Latn, 200,000 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Fur (Latn, 1,230,163 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Makaa (Latn, 221,000 speakers), South Central Banda (Latn, 244,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), South Central Banda (Latn, 244,000 speakers), Makaa (Latn, 221,000 speakers), Cicipu (Latn, 44,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nzakara (Latn, 50,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ma’di (Latn, 584,000 speakers), Mango (Latn, 77,000 speakers), Mfumte (Latn, 79,000 speakers), Fur (Latn, 1,230,163 speakers), Southern Kisi (Latn, 360,000 speakers), Dii (Latn, 71,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ejagham (Latn, 120,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers), Ngbaka (Latn, 1,020,000 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Zapotec (Latn, 490,000 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Sar (Latn, 500,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 2 | 0 | 0 | 14 | 124 | 7 | 113 | 0 |
-| 1% | 0% | 0% | 5% | 48% | 3% | 43% | 0% |
+| 2 | 0 | 0 | 12 | 124 | 7 | 115 | 0 |
+| 1% | 0% | 0% | 5% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
