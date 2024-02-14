@@ -29067,7 +29067,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2024 The Madimi Project Authors (https://github.com/TaVaTake/madimi)";
+value = "Copyright 2024 The Madimi One Project Authors (https://github.com/TaVaTake/madimi)";
 }
 );
 },
